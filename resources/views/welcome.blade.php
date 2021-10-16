@@ -1,44 +1,42 @@
 @extends('layouts.master')
 @section('title')
-    Jamco Group | Home
+    JAMCO Group - A Vanguard of Prosperity
 @endsection
 @section('heads')
 @endsection
 @section('content')
-    <!--=====================================-->
-    <!--=            Slider Start           =-->
-    <!--=====================================-->
-    <div class="slider-area slider-layout1">
+    <div class="slider-area2 slider-layout2">
         <div class="slider-bg-img1" data-sal="zoom-in" data-sal-duration="1500" data-sal-delay="300">
-            <img src="{{ asset('img/figure/figure96.png') }}" alt="figure">
+            <img src="img/figure/figure98.png" alt="figure" width="772" height="366"> 
         </div>
         <div class="slider-bg-img2">
-            <img src="{{ asset('img/figure/figure97.png') }}" alt="figure" data-sal="slide-up" data-sal-duration="1300"
-                data-sal-delay="700">
+            <img src="img/figure/figure99.png" alt="figure" data-sal="slide-up" data-sal-duration="1300" data-sal-delay="700" width="211" height="96"> 
         </div>
         <div class="bend niceties preview-1">
-            <div id="ensign-nivoslider-1" class="slides">
-                <img src="{{ asset('img/slider/slider1.webp') }}" alt="slider" width="1920" height="720"
-                    title="#slider-direction-1" />
-                <img src="{{ asset('img/slider/slider2.webp') }}" alt="slider" width="1920" height="720"
-                    title="#slider-direction-2" />
-                <img src="{{ asset('img/slider/slider1.webp') }}" alt="slider" width="1920" height="720"
-                    title="#slider-direction-3" />
+            <div id="ensign-nivoslider-2" class="slides">
+                <img src="{{asset('img/slider/slider3.webp')}}" alt="slider" width="1920" height="720" title="#slider-direction-1" />
+                <img src="{{asset('img/slider/slider2.webp')}}" alt="slider" width="1920" height="720" title="#slider-direction-2" />
+                <img src="{{asset('img/slider/slider1.webp')}}" alt="slider" width="1920" height="720" title="#slider-direction-3" />
             </div>
             <div id="slider-direction-1" class="t-cn slider-direction">
                 <div class="slider-content s-tb slide-1">
                     <div class="text-left title-container s-tb-c">
                         <div class="container">
-                            <p class="item-subtitle">Find The Right Way</p>
-                            <h2 class="item-title">Business Solutions For All Enterprises</h2>
-                            <div class="item-paragraph">Bhen an unknown printer took a galley of type and scrambled
-                                ype specimen book. It has survived .</div>
-                            <ul class="item-btn">
-                                <li><a href="service1.html">Free Consulting<i class="fas fa-long-arrow-alt-right"></i></a>
-                                </li>
-                                <li><a href="#" class="circle-btn"><span class="circle-icon"><i
-                                                class="fas fa-play-circle"></i>Watch The Video</span></a></li>
-                            </ul>
+                            <p class="item-subtitle">Welcome to</p>
+                            <h2 class="item-title">JAMCO Group</h2>
+                            <div class="item-paragraph">We are dedicated to providing you with what you need and building a better opportunity for all.</div>
+                            <div class="slider-button">
+                                <a href="service1.html" class="slider-btn">Read more<i class="fas fa-long-arrow-alt-right"></i></a>
+                            </div>
+                            <div class="social-site">
+                                <ul>
+                                    <li><span>Follow Us On :</span><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                                    <li> <a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-skype"></i></a></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -47,16 +45,21 @@
                 <div class="slider-content s-tb slide-2">
                     <div class="text-left title-container s-tb-c">
                         <div class="container">
-                            <p class="item-subtitle">Find The Right Way</p>
-                            <h2 class="item-title">Business Solutions For All Enterprises</h2>
-                            <div class="item-paragraph">Bhen an unknown printer took a galley of type and scrambled
-                                ype specimen book. It has survived .</div>
-                            <ul class="item-btn">
-                                <li><a href="service2.html">Free Consulting<i class="fas fa-long-arrow-alt-right"></i></a>
-                                </li>
-                                <li><a href="#" class="circle-btn"><span class="circle-icon"><i
-                                                class="fas fa-play-circle"></i>Watch The Video</span></a></li>
-                            </ul>
+                            <p class="item-subtitle">Welcome to</p>
+                            <h2 class="item-title">JAMCO Group</h2>
+                            <div class="item-paragraph">We are dedicated to providing you with what you need and building a better opportunity for all</div>
+                            <div class="slider-button">
+                                <a href="service1.html" class="slider-btn">Read more<i class="fas fa-long-arrow-alt-right"></i></a>
+                            </div>
+                            <div class="social-site">
+                                <ul>
+                                    <li><span>Follow Us On :</span><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                                    <li> <a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-skype"></i></a></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -65,16 +68,21 @@
                 <div class="slider-content s-tb slide-3">
                     <div class="text-left title-container s-tb-c">
                         <div class="container">
-                            <p class="item-subtitle">Find The Right Way</p>
-                            <h2 class="item-title">Business Solutions For All Enterprises</h2>
-                            <div class="item-paragraph">Bhen an unknown printer took a galley of type and scrambled
-                                ype specimen book. It has survived .</div>
-                            <ul class="item-btn">
-                                <li><a href="service1.html">Free Consulting<i class="fas fa-long-arrow-alt-right"></i></a>
-                                </li>
-                                <li><a href="#" class="circle-btn"><span class="circle-icon"><i
-                                                class="fas fa-play-circle"></i>Watch The Video</span></a></li>
-                            </ul>
+                            <p class="item-subtitle">Welcome to</p>
+                            <h2 class="item-title">JAMCO Group</h2>
+                            <div class="item-paragraph">We are dedicated to providing you with what you need and building a better opportunity for all</div>
+                            <div class="slider-button">
+                                <a href="service1.html" class="slider-btn">Read more<i class="fas fa-long-arrow-alt-right"></i></a>
+                            </div>
+                            <div class="social-site">
+                                <ul>
+                                    <li><span>Follow Us On :</span><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                                    <li> <a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-skype"></i></a></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -158,31 +166,11 @@
             <div class="row">
                 <div class="col-lg-5 col-md-12">
                     <div class="about-box1">
-                        <p class="section-subtitle">About Jamco Group</p>
-                        <h2 class="section-title">Doing The Right Thing At The Right Time</h2>
-                        <p>Bookan unknown printer took a galley of type and scrambled make It has survived not only
-                            five centuries.Lorem adipiscg incididuntlabore dolor ipsum dolor sit amet, consectetur.
+                        <p class="section-subtitle jamcoPrimaryColor font20">About JAMCO Group</p>
+                        <h2 class="section-title">Aiming at Making the Best in all Sectors</h2>
+                        <p class="text-justify">
+                            <strong>JAMCO Group</strong>, is one of the largest private sectors of Bangladesh, came into being in 2020 with a mission to provide a wide array of necessary products and services in cost effective ways. Kamrul Hasan, one of the most dynamic entrepreneurs of Bangladesh, founded these conglomerates. We have been recognized as a group of companies in the country within a very short period of time for our excellence. Since its inception, these conglomerates have been playing a vital role in the economic growth of Bangladesh.<br> The group consists of over 8 major concerns with diverse activities & different products located in different areas of the country. We are devoted to self- reliance for the company, community and country by our quality products and services reaching out to the consumers... <a href="#">read more</a><br>
                         </p>
-                        <div class="media">
-                            <div class="item-img">
-                                <img class="lozad" data-src="{{ asset('img/figure/figure30.png') }}" alt="figure"
-                                    width="47" height="71">
-                            </div>
-                            <div class="media-body">
-                                <h3 class="heading-title"><a href="#">Financing Business</a></h3>
-                                <p>Bookan unknown printer took a galley type and scrambled.</p>
-                            </div>
-                        </div>
-                        <div class="media">
-                            <div class="item-img">
-                                <img class="lozad" data-src="{{ asset('img/figure/figure31.png') }}" alt="figure"
-                                    width="51" height="66">
-                            </div>
-                            <div class="media-body">
-                                <h3 class="heading-title"><a href="#">Yearly Calculation</a></h3>
-                                <p>Bookan unknown printer took a galley type and scrambled.</p>
-                            </div>
-                        </div>
                     </div>
                 </div>
                 <div class="col-lg-7 col-md-12">
@@ -197,114 +185,168 @@
         </div>
     </section>
     <!--=====================================-->
-    <!--=            Consulting Start       =-->
+    <!--=            Financo Start          =-->
     <!--=====================================-->
-    <section class="consulting-service-wrap1">
+    <section class="financo-activities-wrap2">
         <div class="container">
-            <p class="section-subtitle">What We Do</p>
             <div class="row">
-                <div class="col-lg-5">
-                    <div class="consulting-service1">
-                        <h2 class="section-title">Our Business & Financial Consulting Services</h2>
+                <div class="col-lg-5 col-md-12">
+                    <div class="about-box1 industrialVerticals">
+                        <p class="section-subtitle jamcoPrimaryColor font20">Industry Verticals</p>
+                        <h2 class="section-title text-capitalize">Get everything what you need</h2>
                     </div>
                 </div>
-                <div class="col-lg-7">
-                    <div class="consulting-service2">
-                        <p>Bookan unknown printer took a galley of type and scrambled make It has survived not only
-                            five centuries.Lorem ipsum dolor sitam consectetur adipiscg sedo eiusmod tempor
-                            incididuntlabore dolor ipsum dolor sit amet, consectetur.</p>
+                <div class="col-lg-7 col-md-12">
+                    <p class="text-justify">
+                        JAMCO Group works in every major area of business in Bangladesh. We have been dominating various industries in the local market. The followings are the major concerns of JAMCO Group.
+                    </p>
+                </div>
+            </div>
+            <div class="row my-3 my-md-5">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="financo-activities-box2">
+                        <div class="item-img">
+                            <a href="#"><img class="lozad" data-src="{{asset('img/concerns/jamco_agro2.webp')}}" alt="Jamco Group" width="510" height="360"></a>
+                        </div>
+                        <div class="financo-box-layout1">
+                            <div class="financo-layout1">
+                                <div class="financo-img">
+                                    <img class="lozad" data-src="{{asset('img/figure/figure65.png')}}" alt="figure" width="44" height="46">
+                                </div>
+                                <h2 class="heading-title"><a href="#">JAMCO Agro Ltd.</a></h2>
+                                <p>Finance when unknown printer took a galley of type.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="financo-activities-box2">
+                        <div class="item-img">
+                            <a href="#"><img class="lozad" data-src="{{asset('img/concerns/doi_haat.webp')}}" alt="Jamco Group" width="510" height="360"></a>
+                        </div>
+                        <div class="financo-box-layout1">
+                            <div class="financo-layout1">
+                                <div class="financo-img">
+                                    <img class="lozad" data-src="{{asset('img/figure/figure66.png')}}" alt="figure" width="44" height="46">
+                                </div>
+                                <h2 class="heading-title"><a href="#">Doi Haat</a></h2>
+                                <p>Finance when unknown printer took a galley of type.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="financo-activities-box2">
+                        <div class="item-img">
+                            <a href="#"><img class="lozad" data-src="{{asset('img/concerns/jamco_cafe.webp')}}" alt="Jamco Group" width="510" height="360"></a>
+                        </div>
+                        <div class="financo-box-layout1">
+                            <div class="financo-layout1">
+                                <div class="financo-img">
+                                    <img class="lozad" data-src="{{asset('img/figure/figure67.png')}}" alt="figure" width="32" height="49">
+                                </div>
+                                <h2 class="heading-title"><a href="#">JAMCO Cafe</a></h2>
+                                <p>Finance when unknown printer took a galley of type.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="consulting-service3" height="299">
-                        <div class="media">
-                            <div class="item-img">
-                                <img class="lozad" data-src="{{ asset('img/figure/figure18.png') }}"
-                                    alt="figure" width="87" height="95">
-                                <div class="service-img">
-                                    <img class="lozad" data-src="{{ asset('img/figure/figure46.png') }}"
-                                        alt="service" width="86" height="94">
+            <div class="row my-3 my-md-5">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="financo-activities-box2">
+                        <div class="item-img">
+                            <a href="#"><img class="lozad" data-src="{{asset('img/concerns/jamco_cafe.webp')}}" alt="Jamco Group" width="510" height="360"></a>
+                        </div>
+                        <div class="financo-box-layout1">
+                            <div class="financo-layout1">
+                                <div class="financo-img">
+                                    <img class="lozad" data-src="{{asset('img/figure/figure65.png')}}" alt="figure" width="44" height="46">
                                 </div>
-                            </div>
-                            <div class="media-body">
-                                <h3 class="title-heading"><a href="service1.html">Market Research</a></h3>
-                                <p>Lorem ipsum dolor sitam consectetur adipiscg sedo eiusmod tempor incididuntlabore
-                                    doloripsum dolor sit amet, consectetur.</p>
-                                <div class="item-button">
-                                    <a href="service1.html" class="item-btn">Read More<i
-                                            class="fas fa-long-arrow-alt-right"></i></a>
-                                </div>
+                                <h2 class="heading-title"><a href="#">JAMCO Resort</a></h2>
+                                <p>Finance when unknown printer took a galley of type.</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <div class="consulting-service3" height="299">
-                        <div class="media">
-                            <div class="item-img">
-                                <img class="lozad" data-src="{{ asset('img/figure/figure21.png') }}"
-                                    alt="figure" width="76" height="93">
-                                <div class="service-img service-img2">
-                                    <img class="lozad" data-src="{{ asset('img/figure/figure47.png') }}"
-                                        alt="service" width="76" height="93">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="financo-activities-box2">
+                        <div class="item-img">
+                            <a href="#"><img class="lozad" data-src="{{asset('img/concerns/fashion.webp')}}" alt="Jamco Group" width="510" height="360"></a>
+                        </div>
+                        <div class="financo-box-layout1">
+                            <div class="financo-layout1">
+                                <div class="financo-img">
+                                    <img class="lozad" data-src="{{asset('img/figure/figure66.png')}}" alt="figure" width="44" height="46">
                                 </div>
-                            </div>
-                            <div class="media-body">
-                                <h3 class="title-heading"><a href="service1.html">Investment Trading</a></h3>
-                                <p>Lorem ipsum dolor sitam consectetur adipiscg sedo eiusmod tempor incididuntlabore
-                                    doloripsum dolor sit amet, consectetur.</p>
-                                <div class="item-button">
-                                    <a href="service1.html" class="item-btn">Read More<i
-                                            class="fas fa-long-arrow-alt-right"></i></a>
-                                </div>
+                                <h2 class="heading-title"><a href="#">JAMCO Fashion</a></h2>
+                                <p>Finance when unknown printer took a galley of type.</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <div class="consulting-service3" height="299">
-                        <div class="media">
-                            <div class="item-img">
-                                <img class="lozad" data-src="{{ asset('img/figure/figure21.png') }}"
-                                    alt="figure" width="76" height="93">
-                                <div class="service-img service-img3">
-                                    <img class="lozad" data-src="{{ asset('img/figure/figure47.png') }}"
-                                        alt="service" width="76" height="93">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="financo-activities-box2">
+                        <div class="item-img">
+                            <a href="#"><img class="lozad" data-src="{{asset('img/concerns/entertainment.webp')}}" alt="Jamco Group" width="510" height="360"></a>
+                        </div>
+                        <div class="financo-box-layout1">
+                            <div class="financo-layout1">
+                                <div class="financo-img">
+                                    <img class="lozad" data-src="{{asset('img/figure/figure67.png')}}" alt="figure" width="32" height="49">
                                 </div>
-                            </div>
-                            <div class="media-body">
-                                <h3 class="title-heading"><a href="service1.html">Financial Analysis</a></h3>
-                                <p>Lorem ipsum dolor sitam consectetur adipiscg sedo eiusmod tempor incididuntlabore
-                                    doloripsum dolor sit amet, consectetur.</p>
-                                <div class="item-button">
-                                    <a href="service1.html" class="item-btn">Read More<i
-                                            class="fas fa-long-arrow-alt-right"></i></a>
-                                </div>
+                                <h2 class="heading-title"><a href="#">JAMCO Entertainment</a></h2>
+                                <p>Finance when unknown printer took a galley of type.</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <div class="consulting-service3" height="299">
-                        <div class="media">
-                            <div class="item-img">
-                                <img class="lozad" data-src="{{ asset('img/figure/figure20.png') }}"
-                                    alt="figure" width="78" height="94">
-                                <div class="service-img service-img4">
-                                    <img class="lozad" data-src="{{ asset('img/figure/figure49.png') }}"
-                                        alt="service" width="78" height="94">
+            </div>
+            <div class="row my-3 my-md-5">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="financo-activities-box2">
+                        <div class="item-img">
+                            <a href="#"><img class="lozad" data-src="{{asset('img/concerns/construction.webp')}}" alt="Jamco Group" width="510" height="360"></a>
+                        </div>
+                        <div class="financo-box-layout1">
+                            <div class="financo-layout1">
+                                <div class="financo-img">
+                                    <img class="lozad" data-src="{{asset('img/figure/figure65.png')}}" alt="figure" width="44" height="46">
                                 </div>
+                                <h2 class="heading-title"><a href="#">JAMCO Construction</a></h2>
+                                <p>Finance when unknown printer took a galley of type.</p>
                             </div>
-                            <div class="media-body">
-                                <h3 class="title-heading"><a href="service1.html">Taxation Planning</a></h3>
-                                <p>Lorem ipsum dolor sitam consectetur adipiscg sedo eiusmod tempor incididuntlabore
-                                    doloripsum dolor sit amet, consectetur.</p>
-                                <div class="item-button">
-                                    <a href="service1.html" class="item-btn">Read More<i
-                                            class="fas fa-long-arrow-alt-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="financo-activities-box2">
+                        <div class="item-img">
+                            <a href="#"><img class="lozad" data-src="{{asset('img/concerns/jamco_poultry.webp')}}" alt="Jamco Group" width="510" height="360"></a>
+                        </div>
+                        <div class="financo-box-layout1">
+                            <div class="financo-layout1">
+                                <div class="financo-img">
+                                    <img class="lozad" data-src="{{asset('img/figure/figure66.png')}}" alt="figure" width="44" height="46">
                                 </div>
+                                <h2 class="heading-title"><a href="#">JAMCO Poultry</a></h2>
+                                <p>Finance when unknown printer took a galley of type.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="financo-activities-box2">
+                        <div class="item-img">
+                            <a href="#"><img class="lozad" data-src="{{asset('img/concerns/dairy.webp')}}" alt="Jamco Group" width="510" height="360"></a>
+                        </div>
+                        <div class="financo-box-layout1">
+                            <div class="financo-layout1">
+                                <div class="financo-img">
+                                    <img class="lozad" data-src="{{asset('img/figure/figure67.png')}}" alt="figure" width="32" height="49">
+                                </div>
+                                <h2 class="heading-title"><a href="#">JAMCO Dairy</a></h2>
+                                <p>Finance when unknown printer took a galley of type.</p>
                             </div>
                         </div>
                     </div>
@@ -373,9 +415,8 @@
         <div class="container">
             <div class="section-heading">
                 {{-- <p class="item-subtitle">Board of Directors</p> --}}
-                <h2 class="heading-title">Our Board of Directors</h2>
-                <p>Bookan unknown printer took a galley of type and scrambled make It has survived not only five
-                    centuries.
+                <h2 class="heading-title jamcoPrimaryColor">Board of Directors</h2>
+                <p>Meet with the wide range of Business Expertises who make JAMCO Group what it is.
                 </p>
             </div>
             <div class="row">
@@ -479,186 +520,13 @@
         </div>
     </section>
     <!--=====================================-->
-    <!--=            Project Start          =-->
-    <!--=====================================-->
-    <section class="project-wrap-layout1">
-        <div class="container">
-            <p class="section-subtitle">Our Experiences</p>
-            <div class="row">
-                <div class="col-lg-5">
-                    <div class="project-box1">
-                        <h2 class="section-title">We’ve Done Lot’s Of Awesome Projects</h2>
-                    </div>
-                </div>
-                <div class="col-lg-7">
-                    <div class="project-box2">
-                        <p>Bookan unknown printer took a galley of type and scrambled make It has survived not only
-                            five centuries.Lorem ipsum dolor sitam consectetur adipiscg sedo eiusmod tempor
-                            incididuntlabore dolor ipsum dolor sit amet, consectetur.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container-fluid">
-            <div class="row no-gutters">
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="portfolio-box1">
-                        <div class="item-img">
-                            <a href="#"><img class="lozad" data-src="{{ asset('img/blog/blog5.jpg') }}"
-                                    alt="blog" width="570" height="650"></a>
-                            <div class="item-content">
-                                <div class="item-number">01</div>
-                                <p class="heading-subtitle">Business Strategy</p>
-                                <h3 class="heading-title">Investment Planning</h3>
-                                <p class="portfolio-para">Bohen an unknown printer took a galley of type and
-                                    scrambled it to make a type specimen book. </p>
-                                <div class="item-button">
-                                    <a href="portfolio2.html" class="item-btn">+ <span>Read More</span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="portfolio-box1">
-                        <div class="item-img">
-                            <a href="#"><img class="lozad" data-src="{{ asset('img/blog/blog6.jpg') }}"
-                                    alt="blog" width="570" height="650"></a>
-                            <div class="item-content">
-                                <div class="item-number">02</div>
-                                <p class="heading-subtitle">Business Strategy</p>
-                                <h3 class="heading-title">Investment Planning</h3>
-                                <p class="portfolio-para">Bohen an unknown printer took a galley of type and
-                                    scrambled it to make a type specimen book. </p>
-                                <div class="item-button">
-                                    <a href="portfolio2.html" class="item-btn">+ <span>Read More</span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="portfolio-box1">
-                        <div class="item-img">
-                            <a href="#"><img class="lozad" data-src="{{ asset('img/blog/blog7.jpg') }}"
-                                    alt="blog" width="570" height="650"></a>
-                            <div class="item-content">
-                                <div class="item-number">03</div>
-                                <p class="heading-subtitle">Business Strategy</p>
-                                <h3 class="heading-title">Investment Planning</h3>
-                                <p class="portfolio-para">Bohen an unknown printer took a galley of type and
-                                    scrambled it to make a type specimen book. </p>
-                                <div class="item-button">
-                                    <a href="portfolio2.html" class="item-btn">+ <span>Read More</span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="portfolio-box1">
-                        <div class="item-img">
-                            <a href="#"><img class="lozad" data-src="{{ asset('img/blog/blog8.jpg') }}"
-                                    alt="blog" width="570" height="650"></a>
-                            <div class="item-content">
-                                <div class="item-number">04</div>
-                                <p class="heading-subtitle">Business Strategy</p>
-                                <h3 class="heading-title">Investment Planning</h3>
-                                <p class="portfolio-para">Bohen an unknown printer took a galley of type and
-                                    scrambled it to make a type specimen book. </p>
-                                <div class="item-button">
-                                    <a href="portfolio2.html" class="item-btn">+ <span>Read More</span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--=====================================-->
-    <!--=            Profit Start           =-->
-    <!--=====================================-->
-    {{-- <section class="company-profit-wrap1">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5 col-md-12">
-                    <div class="company-profit-box1">
-                        <p class="section-subtitle">Company Profit Chart</p>
-                        <h2 class="section-title">Jamco Group Offers the Best Business Solutions</h2>
-                        <p>Finance when an unknown printer took a galley of type and scrambled it to make a type
-                            specimen book. It has survived not only five centuriFinance.</p>
-                        <div class="item-button">
-                            <a href="single-service1.html" class="item-btn">Get Survey Today<i
-                                    class="fas fa-long-arrow-alt-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-7 col-md-12">
-                    <div class="company-profit-box2">
-                        <div class="item-img">
-                            <img class="lozad" data-src="{{ asset('img/figure/figure13.png') }}" alt="figure"
-                                width="586" height="283">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> --}}
-    <!--=====================================-->
-    <!--=            Call-back Start        =-->
-    <!--=====================================-->
-    <section class="call-back-wrap">
-        <div class="container">
-            <div class="row no-gutters">
-                <div class="col-lg-5 col-md-12">
-                    <div class="call-back-box1">
-                        <h3 class="section-title">Request a Call Back</h3>
-                        <form class="message-box">
-                            <div class="row">
-                                <div class="form-group col-lg-12">
-                                    <input type="text" class="form-control" id="inputAddress1" placeholder="Name">
-                                </div>
-                                <div class="form-group col-lg-12">
-                                    <input type="text" class="form-control" id="inputAddress2" placeholder="Email">
-                                </div>
-                                <div class="form-group col-lg-12">
-                                    <input type="text" class="form-control" id="inputAddress3" placeholder="Phone">
-                                </div>
-                                <div class="form-group col-lg-12">
-                                    <textarea name="comment" id="message" class="form-control" placeholder="Message"
-                                        cols="30" rows="4"></textarea>
-                                </div>
-                                <div class="form-group col-lg-12">
-                                    <a href="about.html" class="item-btn">Submit Now</a>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-                <div class="col-lg-7 col-md-12">
-                    <div class="call-back-box2">
-                        <div class="item-img">
-                            <img class="lozad" data-src="{{ asset('img/blog/blog4.jpg') }}" alt="blog"
-                                width="690" height="582">
-                            <div class="call-img">
-                                <img class="lozad" data-src="{{ asset('img/figure/figure11.png') }}"
-                                    alt="figure" width="145" height="295">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--=====================================-->
     <!--=            Location Start         =-->
     <!--=====================================-->
     <section class="location-wrap-layout1">
         <div class="container">
             <div class="item-heading">
                 <p class="item-subtitle">Our Trusted Clients</p>
-                <h2 class="section-heading">We’ve Situated in Different Countries</h2>
+                <h2 class="section-heading">We’ve Reached in Different Countries</h2>
             </div>
             <div class="row">
                 <div class="col-lg-12">
@@ -747,17 +615,16 @@
                 height="147">
         </div>
         <div class="container">
-            <p class="section-subtitle">Latest News & Blogs</p>
+            <p class="section-subtitle">News and Events</p>
             <div class="blog-top-area">
                 <div class="row">
-                    <div class="col-lg-5">
-                        <h2 class="section-title">What’s New in Business Area to Know</h2>
+                    <div class="col-12">
+                        <h2 class="section-title">Get News and Events we are hosting or a part of. Stay up-to-date on the latest JAMCO Group news, press releases, events and more.</h2>
                     </div>
-                    <div class="col-lg-7">
-                        <p>Bookan unknown printer took a galley of type and scrambled make It has survived not only
-                            five centuries.Lorem ipsum dolor sitam consectetur adipiscg sedo eiusmod tempor
-                            incididuntlabore dolor ipsum dolor sit amet, consectetur.</p>
-                    </div>
+                    {{-- <div class="col-lg-7">
+                        <p>
+                        </p>
+                    </div> --}}
                 </div>
             </div>
             <div class="row">

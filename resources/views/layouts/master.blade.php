@@ -87,13 +87,14 @@
                         <div class="footer-left">
                             <div class="footer-logo">
                                 <a href="#"><img class="lozad"
-                                        src="{{ asset('img/logo/Jamco_Group_Logo_45.png') }}" alt="logo" width="180"
+                                        src="{{ asset('img/logo/Jamco_Group_Logo.png') }}" alt="logo" width="180"
                                         height="45"></a>
                             </div>
-                            <p>Jamco Group amet sit amet, consectetur adipise cingt sed doeiusmod tempor incididuntue
-                                labore
-                                et dolore magna.</p>
-                            <div class="footer-social">
+                            <p class="text-justify">
+                                As a group of company, We have an active presence through various social media.
+                            </p>
+                            <div class="footer-social class="text-center"">
+                                <h4 class="font-weight-bold text-secondary">Let's get social</h4>
                                 <ul>
                                     <li>
                                         <a href="#" class="fb"><i class="fab fa-facebook-square"></i></a>
@@ -108,21 +109,70 @@
                     </div>
                     <div class="col-xl-4 col-lg-6 col-md-4 col-sm-6">
                         <div class="footer-middle">
-                            <h2 class="footer-title">What We Do</h2>
+                            <h2 class="footer-title text-secondary">Our Concerns</h2>
                             <div class="row">
                                 <div class="col-lg-6 col-md-12">
                                     <ul class="footer-list">
-                                        <li><a href="#"><i class="fas fa-angle-right"></i>Financial Advice</a></li>
-                                        <li><a href="#"><i class="fas fa-angle-right"></i>Planning Strategies</a></li>
-                                        <li><a href="#"><i class="fas fa-angle-right"></i>Taxation Planning</a></li>
-                                        <li><a href="#"><i class="fas fa-angle-right"></i>Investment Trading</a></li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fas fa-angle-right">
+                                                </i>
+                                                JAMCO Agro Ltd
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fas fa-angle-right">
+                                                </i>
+                                                Doi Haat
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fas fa-angle-right">
+                                                </i>
+                                                JAMCO Cafe
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fas fa-angle-right">
+                                                </i>
+                                                JAMCO Resort
+                                            </a>
+                                        </li>
                                     </ul>
                                 </div>
                                 <div class="col-lg-6 col-md-12">
                                     <ul class="footer-list2">
-                                        <li><a href="#"><i class="fas fa-angle-right"></i>Wealth Marketing</a></li>
-                                        <li><a href="#"><i class="fas fa-angle-right"></i>Our Services</a></li>
-                                        <li><a href="#"><i class="fas fa-angle-right"></i>Stats Element</a></li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fas fa-angle-right">
+                                                </i>
+                                                JAMCO Entertainment
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fas fa-angle-right">
+                                                </i>
+                                                JAMCO Fashion
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fas fa-angle-right">
+                                                </i>
+                                                JAMCO Construction
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fas fa-angle-right">
+                                                </i>
+                                                JAMCO Poultry & Dairy
+                                            </a>
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
@@ -130,8 +180,8 @@
                     </div>
                     <div class="col-xl-4 col-lg-6 col-md-4 col-sm-6">
                         <div class="footer-right">
-                            <h2 class="footer-title">Get Updates!</h2>
-                            <p>Sign up for our latest news & articles. We won’t give you spam mails.</p>
+                            <h2 class="footer-title text-secondary">Get Updates!</h2>
+                            <p>Feel free to contact us. We will be glad to hear from you.</p>
                             <div class="input-group">
                                 <input type="text" class="form-control" placeholder="Enter your Email">
                                 <div class="input-group-append">
@@ -170,7 +220,7 @@
             <div class="close-btn offcanvas-close"><i class="fas fa-times"></i></div>
             <div class="offcanvas-content">
                 <div class="offcanvas-logo">
-                    <a href="#"><img class="lozad" src="{{ asset('img/logo/Jamco_Group_Logo_45.png') }}"
+                    <a href="#"><img class="lozad" src="{{ asset('img/logo/Jamco_Group_Logo.png') }}"
                             alt="Logo" width="180" height="45"></a>
                 </div>
                 <ul class="offcanvas-menu">

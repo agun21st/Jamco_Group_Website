@@ -7,9 +7,9 @@
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <div class="topbar-left">
-                        <p class="item-paragraph">Are you ready to grow up your business?</p>
+                        <p class="item-paragraph">A Vanguard of Prosperity</p>
                         <div class="header-button">
-                            <a href="{{ url('/about-us') }}">Join our team <i
+                            <a href="{{ url('/about-us') }}">Get Connected <i
                                     class="fas fa-long-arrow-alt-right"></i></a>
                         </div>
                     </div>
@@ -28,7 +28,7 @@
                             </li>
                         </ul>
                         <div class="header-right-button">
-                            <a href="{{ url('/about-us') }}" class="header-btn">Find An Advicer</a>
+                            <a href="{{ url('/about-us') }}" class="header-btn">Find An Expart</a>
                         </div>
                     </div>
                 </div>
@@ -42,8 +42,8 @@
                 <div class="col-xl-2 col-lg-2">
                     <div class="logo-area">
                         <a href="{{ url('/') }}" class="temp-logo">
-                            <img src="{{ asset('img/logo/Jamco_Group_Logo_45.png') }}" width="180" height="45"
-                                alt="logo" class="img-fluid">
+                            <img src="{{ asset('img/logo/Jamco_Group_Logo.png') }}" width="180" height="45" alt="logo"
+                                class="img-fluid">
                         </a>
                     </div>
                 </div>
