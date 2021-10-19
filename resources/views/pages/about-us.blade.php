@@ -19,7 +19,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="breadcrumb-box">
-                        <h1 class="page-title">About Our Company</h1>
+                        <h1 class="page-title">About JAMCO</h1>
                         <nav>
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="{{ url('/') }}">Home</a></li>
@@ -39,12 +39,15 @@
             <div class="row">
                 <div class="col-lg-6 col-md-6">
                     <div class="about-box4">
-                        <p class="heading-subtitle">About Jamco Group</p>
-                        <h2 class="heading-title">Finance Business Services Your Future Success</h2>
-                        <p>Bookan unknown printer took a galley of type and scramble it to make a type specimen book. It has
-                            survived notnly five centuries when an unknown printer.Bookan unknown printer took a galley of
-                            type and scramble.</p>
-                        <div class="about-layout">
+                        <p class="heading-subtitle jamcoPrimaryColor">About Jamco Group</p>
+                        <h2 class="heading-title">Aiming at Making the Best in all Sectors</h2>
+                        <p class="text-justify mb-2">
+                            <strong>JAMCO Group</strong>, is one of the largest private sectors of Bangladesh, came into being in 2020 with a mission to provide a wide array of necessary products and services in cost effective ways. Kamrul Hasan, one of the most dynamic entrepreneurs of Bangladesh, founded these conglomerates. We have been recognized as a group of companies in the country within a very short period of time for our excellence. Since its inception, these conglomerates have been playing a vital role in the economic growth of Bangladesh.
+                        </p>
+                        <p>
+                            The group consists of over 8 major concerns with diverse activities & different products located in different areas of the country. We are devoted to self- reliance for the company, community and country by our quality products and services reaching out to the consumers.
+                        </p>
+                        {{-- <div class="about-layout">
                             <div class="media">
                                 <div class="item-img about-img2">
                                     <img src="{{ asset('img/figure/figure76.png') }}" alt="figure" width="44" height="46">
@@ -69,7 +72,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6">
@@ -92,13 +95,33 @@
         </div>
     </section>
     <!--=====================================-->
+    <!--=            Banner Start           =-->
+    <!--=====================================-->
+    <section class="banner-wrap1 banner-wrap7">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="banner-box1 mission">
+                        <div class="item-img">
+                            <img src="{{asset('img/blog/blog9.jpg')}}" alt="blog" width="586" height="200">
+                        </div>
+                        <div class="bannar-details mission">
+                            <h3 class="heading-title jamcoPrimaryColor">Mission</h3>
+                            <p class="text-justify px-4">To achieve growth as a trusted group of companies through producing as well as delivering a wide array of products and services and making positive contributions to the country's economy.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--=====================================-->
     <!--=            Company-value Start    =-->
     <!--=====================================-->
     <section class="company-value-wrap">
         <div class="container">
             <div class="item-content">
-                <h2 class="section-title">Company Core Values</h2>
-                <p> Bookan unknown printer took a galley of type and scrambled make It has survived not only five centuries.
+                <h2 class="section-title jamcoPrimaryColor">Company Core Values</h2>
+                <p>These values have shaped our corporate culture since the very beginning
                 </p>
             </div>
             <div class="row">
@@ -110,10 +133,10 @@
                                     width="235" height="251">
                             </div>
                             <div class="media-body">
-                                <h3 class="heading-title">Planning & Strategy</h3>
-                                <p>Dorem ipsum dolor amet consec adipiscing elitseddo.</p>
+                                <h3 class="heading-title">Teamwork</h3>
+                                <p>We work together to overcome challenges.</p>
                                 <div class="item-button">
-                                    <a href="team2.html" class="item-btn">Read More<i
+                                    <a href="{{url('/about-us') }}" class="item-btn">Read More<i
                                             class="fas fa-long-arrow-alt-right"></i></a>
                                 </div>
                                 <div class="item-number">01</div>
@@ -129,10 +152,10 @@
                                     width="235" height="251">
                             </div>
                             <div class="media-body">
-                                <h3 class="heading-title">Planning & Strategy</h3>
-                                <p>Dorem ipsum dolor amet consec adipiscing elitseddo.</p>
+                                <h3 class="heading-title">Quality</h3>
+                                <p>We do not believe in Quantity, rather Quality.</p>
                                 <div class="item-button">
-                                    <a href="team2.html" class="item-btn">Read More<i
+                                    <a href="{{url('/about-us') }}" class="item-btn">Read More<i
                                             class="fas fa-long-arrow-alt-right"></i></a>
                                 </div>
                                 <div class="item-number">02</div>
@@ -140,13 +163,52 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-lg-6">
+                    <div class="company-value-box">
+                        <div class="media">
+                            <div class="item-img">
+                                <img class="lozad" data-src="{{ asset('img/about/about5.jpg') }}" alt="about"
+                                    width="235" height="251">
+                            </div>
+                            <div class="media-body">
+                                <h3 class="heading-title">Diversity</h3>
+                                <p>Ready to embrace the power of diverse minds.</p>
+                                <div class="item-button">
+                                    <a href="{{url('/about-us') }}" class="item-btn">Read More<i
+                                            class="fas fa-long-arrow-alt-right"></i></a>
+                                </div>
+                                <div class="item-number">03</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="company-value-box">
+                        <div class="media">
+                            <div class="item-img">
+                                <img class="lozad" data-src="{{ asset('img/about/about4.jpg') }}" alt="about"
+                                    width="235" height="251">
+                            </div>
+                            <div class="media-body">
+                                <h3 class="heading-title">Innovation</h3>
+                                <p>We are continually striving for improvement.</p>
+                                <div class="item-button">
+                                    <a href="{{url('/about-us') }}" class="item-btn">Read More<i
+                                            class="fas fa-long-arrow-alt-right"></i></a>
+                                </div>
+                                <div class="item-number">04</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
+    
     <!--=====================================-->
     <!--=           Progress-bar Start      =-->
     <!--=====================================-->
-    <section class="progress-bar-wrap1">
+    {{-- <section class="progress-bar-wrap1">
         <div class="container-fluid">
             <div class="row no-gutters">
                 <div class="col-lg-6 col-md-12">
@@ -187,11 +249,11 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
     <!--=====================================-->
     <!--=            Consulting Start       =-->
     <!--=====================================-->
-    <section class="consulting-service-wrap4">
+    {{-- <section class="consulting-service-wrap4">
         <div class="container">
             <div class="row gutters-50">
                 <div class="col-lg-5">
@@ -207,11 +269,11 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
     <!--=====================================-->
     <!--=            Consulting Start       =-->
     <!--=====================================-->
-    <section class="consulting-service-wrap2 consulting-service-wrap3">
+    {{-- <section class="consulting-service-wrap2 consulting-service-wrap3">
         <div class="container">
             <div class="background-image1">
                 <img class="lozad" data-src="{{ asset('img/figure/figure57.png') }}" alt="png" width="164"
@@ -338,11 +400,11 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
     <!--=====================================-->
     <!--=            Banner Start           =-->
     <!--=====================================-->
-    <section class="banner-wrap1 banner-wrap4">
+    {{-- <section class="banner-wrap1 banner-wrap4">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -373,7 +435,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
     <!--=====================================-->
     <!--=            Team Start             =-->
     <!--=====================================-->
@@ -557,5 +619,6 @@
     <!--=====================================-->
     <!--=            Brand Start            =-->
     <!--=====================================-->
+    <div class="my-5 p-0"></div>
     @include('components.brands-bar')
 @endsection

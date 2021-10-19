@@ -169,7 +169,7 @@
                         <p class="section-subtitle jamcoPrimaryColor font20">About JAMCO Group</p>
                         <h2 class="section-title">Aiming at Making the Best in all Sectors</h2>
                         <p class="text-justify">
-                            <strong>JAMCO Group</strong>, is one of the largest private sectors of Bangladesh, came into being in 2020 with a mission to provide a wide array of necessary products and services in cost effective ways. Kamrul Hasan, one of the most dynamic entrepreneurs of Bangladesh, founded these conglomerates. We have been recognized as a group of companies in the country within a very short period of time for our excellence. Since its inception, these conglomerates have been playing a vital role in the economic growth of Bangladesh.<br> The group consists of over 8 major concerns with diverse activities & different products located in different areas of the country. We are devoted to self- reliance for the company, community and country by our quality products and services reaching out to the consumers... <a href="#">read more</a><br>
+                            <strong>JAMCO Group</strong>, is one of the largest private sectors of Bangladesh, came into being in 2020 with a mission to provide a wide array of necessary products and services in cost effective ways. Kamrul Hasan, one of the most dynamic entrepreneurs of Bangladesh... <a href="{{url('/about-us')}}">read more</a><br>
                         </p>
                     </div>
                 </div>
@@ -256,7 +256,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="financo-activities-box2">
                         <div class="item-img">
-                            <a href="#"><img class="lozad" data-src="{{asset('img/concerns/jamco_cafe.webp')}}" alt="Jamco Group" width="510" height="360"></a>
+                            <a href="#"><img class="lozad" data-src="{{asset('img/concerns/resort.webp')}}" alt="Jamco Group" width="510" height="360"></a>
                         </div>
                         <div class="financo-box-layout1">
                             <div class="financo-layout1">
@@ -486,7 +486,7 @@
     <!--=====================================-->
     <!--=            Banner Start           =-->
     <!--=====================================-->
-    <section class="banner-wrap1">
+    {{-- <section class="banner-wrap1">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -518,7 +518,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
     <!--=====================================-->
     <!--=            Location Start         =-->
     <!--=====================================-->
@@ -552,7 +552,7 @@
     <!--=====================================-->
     <!--=            Testimonial Start      =-->
     <!--=====================================-->
-    <section class="testimonial-wrap1">
+    {{-- <section class="testimonial-wrap1">
         <div class="container">
             <div class="testimonial-box1">
                 <div class="slick-carousel slick-slider"
@@ -605,7 +605,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
     <!--=====================================-->
     <!--=            Blog Start             =-->
     <!--=====================================-->
@@ -678,7 +678,7 @@
     <!--=====================================-->
     <!--=          Personal Start           =-->
     <!--=====================================-->
-    <section class="personal-info-wrap1">
+    {{-- <section class="personal-info-wrap1">
         <div class="container-fluid">
             <div class="row align-items-center">
                 <div class="col-xl-4 col-lg-8">
@@ -742,5 +742,5 @@
             <img class="lozad" data-src="{{ asset('img/figure/figure6.png') }}" alt="figure" width="487"
                 height="269">
         </div>
-    </section>
+    </section> --}}
 @endsection

@@ -91,7 +91,7 @@
                                         height="45"></a>
                             </div>
                             <p class="text-justify">
-                                As a group of company, We have an active presence through various social media.
+                                As a group of company, we have an active presence through various social media.
                             </p>
                             <div class="footer-social class="text-center"">
                                 <h4 class="font-weight-bold text-secondary">Let's get social</h4>
@@ -107,10 +107,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-4 col-lg-6 col-md-4 col-sm-6">
+                    <div class="col-xl-4 col-lg-6 col-md-4 col-sm-6 px-3 px-md-0">
                         <div class="footer-middle">
-                            <h2 class="footer-title text-secondary">Our Concerns</h2>
-                            <div class="row">
+                            <h2 class="footer-title jamcoPrimaryColor">Our Concerns</h2>
+                            <div class="row pt-2">
                                 <div class="col-lg-6 col-md-12">
                                     <ul class="footer-list">
                                         <li>
@@ -143,7 +143,7 @@
                                         </li>
                                     </ul>
                                 </div>
-                                <div class="col-lg-6 col-md-12">
+                                <div class="col-lg-6 col-md-12 px-3 px-md-0">
                                     <ul class="footer-list2">
                                         <li>
                                             <a href="#">
@@ -180,6 +180,20 @@
                     </div>
                     <div class="col-xl-4 col-lg-6 col-md-4 col-sm-6">
                         <div class="footer-right">
+                            <h2 class="footer-title jamcoPrimaryColor">Corporate Office</h2>
+                            <p style="font-size:15px;">Suite - 5, Level - 15, Eastern Arzoo<br>197 (Old-61), Shahid Sayed Nazrul Islam Sarani<br>Bijoynagar, Dhaka-1000, Bangladesh<br>E-mail: info@jamcogroupbd.com<br>Phone: +88028392244</p>
+                            {{-- <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Enter your Email">
+                                <div class="input-group-append">
+                                    <button class="btn btn-outline-secondary" type="button" id="button-addon2"><i
+                                            class="fas fa-angle-right"></i></button>
+                                </div>
+                            </div> --}}
+                            
+                        </div>
+                    </div>
+                    {{-- <div class="col-xl-4 col-lg-6 col-md-4 col-sm-6">
+                        <div class="footer-right">
                             <h2 class="footer-title text-secondary">Get Updates!</h2>
                             <p>Feel free to contact us. We will be glad to hear from you.</p>
                             <div class="input-group">
@@ -190,7 +204,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
             <div class="footer-bottom">
@@ -198,7 +212,7 @@
                     <div class="row justify-content-center">
                         <div class="col-lg-12">
                             <div class="copyright-area">
-                                <p> © Jamco Group, 2021. All Rights Reserved </p>
+                                <p>&copy; 2021, JAMCO Group, All Rights Reserved </p>
                                 <div class="copyright-img1">
                                     <img class="lozad" src="{{ asset('img/figure/figure4.png') }}"
                                         alt="figure" width="20" height="20">
