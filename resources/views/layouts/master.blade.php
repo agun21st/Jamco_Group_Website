@@ -93,8 +93,8 @@
                             <p class="text-justify">
                                 As a group of company, we have an active presence through various social media.
                             </p>
-                            <div class="footer-social class="text-center"">
-                                <h4 class="font-weight-bold text-secondary">Let's get social</h4>
+                            <div class="footer-social class=" text-center"">
+                                <h4 class="font-weight-bold text-white">Let's get social</h4>
                                 <ul>
                                     <li>
                                         <a href="#" class="fb"><i class="fab fa-facebook-square"></i></a>
@@ -109,7 +109,7 @@
                     </div>
                     <div class="col-xl-4 col-lg-6 col-md-4 col-sm-6 px-3 px-md-0">
                         <div class="footer-middle">
-                            <h2 class="footer-title jamcoPrimaryColor">Our Concerns</h2>
+                            <h2 class="footer-title text-white">Our Concerns</h2>
                             <div class="row pt-2">
                                 <div class="col-lg-6 col-md-12">
                                     <ul class="footer-list">
@@ -180,8 +180,10 @@
                     </div>
                     <div class="col-xl-4 col-lg-6 col-md-4 col-sm-6">
                         <div class="footer-right">
-                            <h2 class="footer-title jamcoPrimaryColor">Corporate Office</h2>
-                            <p style="font-size:15px;">Suite - 5, Level - 15, Eastern Arzoo<br>197 (Old-61), Shahid Sayed Nazrul Islam Sarani<br>Bijoynagar, Dhaka-1000, Bangladesh<br>E-mail: info@jamcogroupbd.com<br>Phone: +88028392244</p>
+                            <h2 class="footer-title text-white">Corporate Office</h2>
+                            <p style="font-size:15px; color:#fff;">Suite - 5, Level - 15, Eastern Arzoo<br>197 (Old-61),
+                                Shahid Sayed Nazrul Islam Sarani<br>Bijoynagar, Dhaka-1000, Bangladesh<br>E-mail:
+                                info@jamcogroupbd.com<br>Phone: +88028392244</p>
                             {{-- <div class="input-group">
                                 <input type="text" class="form-control" placeholder="Enter your Email">
                                 <div class="input-group-append">
@@ -189,7 +191,6 @@
                                             class="fas fa-angle-right"></i></button>
                                 </div>
                             </div> --}}
-                            
                         </div>
                     </div>
                     {{-- <div class="col-xl-4 col-lg-6 col-md-4 col-sm-6">
@@ -239,10 +240,10 @@
                 </div>
                 <ul class="offcanvas-menu">
                     <li class="nav-item">
-                        <a href="#">Home</a>
+                        <a href="{{ url('/') }}">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a href="about.html">About</a>
+                        <a href="{{ url('/about-us') }}">About Us</a>
                     </li>
                     <li class="nav-item">
                         <a href="blog1.html">Blog 1</a>

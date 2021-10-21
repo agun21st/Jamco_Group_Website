@@ -96,7 +96,7 @@
                                     </div>
                                 </div>
                             </li>
-                            <li class="offcanvas-menu-trigger-wrap">
+                            {{-- <li class="offcanvas-menu-trigger-wrap">
                                 <button type="button" class="offcanvas-menu-btn menu-status-open">
                                     <span class="btn-icon-wrap">
                                         <span></span>
@@ -104,7 +104,7 @@
                                         <span></span>
                                     </span>
                                 </button>
-                            </li>
+                            </li> --}}
                         </ul>
                     </div>
                 </div>

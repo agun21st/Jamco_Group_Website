@@ -103,11 +103,30 @@
                 <div class="col-lg-12">
                     <div class="banner-box1 mission">
                         <div class="item-img">
-                            <img src="{{asset('img/blog/blog9.jpg')}}" alt="blog" width="586" height="200">
+                            <img src="{{asset('img/blog/jamco_mission.webp')}}" alt="blog" width="586" height="200">
                         </div>
                         <div class="bannar-details mission">
                             <h3 class="heading-title jamcoPrimaryColor">Mission</h3>
                             <p class="text-justify px-4">To achieve growth as a trusted group of companies through producing as well as delivering a wide array of products and services and making positive contributions to the country's economy.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="banner-wrap1 banner-wrap7">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="banner-box1 mission">
+                        <div class="item-img">
+                            <img src="{{asset('img/blog/jamco_vision.webp')}}" alt="blog" width="586" height="200">
+                        </div>
+                        <div class="bannar-details mission">
+                            <h3 class="heading-title jamcoPrimaryColor">Vision</h3>
+                            <p class="text-justify px-4">
+                                To be recognized as a global group of companies providing the best products and services to the consumers.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -121,7 +140,7 @@
         <div class="container">
             <div class="item-content">
                 <h2 class="section-title jamcoPrimaryColor">Company Core Values</h2>
-                <p>These values have shaped our corporate culture since the very beginning
+                <p class="text-secondary">These values have shaped our corporate culture since the very beginning
                 </p>
             </div>
             <div class="row">
@@ -204,238 +223,6 @@
             </div>
         </div>
     </section>
-    
-    <!--=====================================-->
-    <!--=           Progress-bar Start      =-->
-    <!--=====================================-->
-    {{-- <section class="progress-bar-wrap1">
-        <div class="container-fluid">
-            <div class="row no-gutters">
-                <div class="col-lg-6 col-md-12">
-                    <div class="progress-bar-box1 progress-bar-box3">
-                        <h2 class="section-title">Our Expertise & Skills to All Business</h2>
-                        <p> when an unknown printer took a galley of type and scrambled make a type specimen book.</p>
-                        <div class="row">
-                            <div class="col-lg-6 col-md-6 col-sm-6">
-                                <div class="progress-box">
-                                    <div class="circle-progress" data-value="0.95">
-                                        <span></span>
-                                        <label>Investment</label>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-md-6 col-sm-6">
-                                <div class="progress-box">
-                                    <div class="circle-progress" data-value="0.95">
-                                        <span></span>
-                                        <label>Projects</label>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-12">
-                    <div class="progress-bar-box2 progress-bar-box3">
-                        <div class="background-image5">
-                            <img class="lozad" data-src="{{ asset('img/figure/figure38.png') }}" alt="figure"
-                                width="475" height="553">
-                        </div>
-                        <div class="item-img">
-                            <img class="lozad" data-src="{{ asset('img/service/service2.jpg') }}" alt="service"
-                                width="960" height="555">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> --}}
-    <!--=====================================-->
-    <!--=            Consulting Start       =-->
-    <!--=====================================-->
-    {{-- <section class="consulting-service-wrap4">
-        <div class="container">
-            <div class="row gutters-50">
-                <div class="col-lg-5">
-                    <div class="consulting-top3">
-                        <h2 class="section-title">Our Business Services</h2>
-                    </div>
-                </div>
-                <div class="col-lg-7">
-                    <div class="consulting-top4">
-                        <p>Bookan unknown printer took a galley of type and scrambled make It has survived not only five
-                            centuries.Lorem ipsum dolor sitam consectetu.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> --}}
-    <!--=====================================-->
-    <!--=            Consulting Start       =-->
-    <!--=====================================-->
-    {{-- <section class="consulting-service-wrap2 consulting-service-wrap3">
-        <div class="container">
-            <div class="background-image1">
-                <img class="lozad" data-src="{{ asset('img/figure/figure57.png') }}" alt="png" width="164"
-                    height="461">
-            </div>
-            <div class="background-image2">
-                <img class="lozad" data-src="{{ asset('img/figure/figure58.png') }}" alt="png" width="257"
-                    height="752">
-            </div>
-        </div>
-        <div class="container">
-            <div class="row gutters-20">
-                <div class="col-lg-3 col-md-6">
-                    <div class="consulting-service4 consulting-service5">
-                        <h3 class="heading-title">Audience</h3>
-                        <div class="item-img">
-                            <img class="lozad" data-src="{{ asset('img/figure/figure59.png') }}" alt="figure"
-                                width="87" height="65">
-                        </div>
-                        <p>when unknown printer tookar galleytype ande scrambled imake type.</p>
-                        <div class="consulting-button">
-                            <a href="single-service2.html" class="consulting-btn"><i
-                                    class="fas fa-long-arrow-alt-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="consulting-service4 consulting-service5">
-                        <h3 class="heading-title">Tax Advisory</h3>
-                        <div class="item-img">
-                            <img class="lozad" data-src="{{ asset('img/figure/figure60.png') }}" alt="figure"
-                                width="49" height="63">
-                        </div>
-                        <p>when unknown printer tookar galleytype ande scrambled imake type.</p>
-                        <div class="consulting-button">
-                            <a href="single-service2.html" class="consulting-btn"><i
-                                    class="fas fa-long-arrow-alt-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="consulting-service4 consulting-service5">
-                        <h3 class="heading-title">Investment</h3>
-                        <div class="item-img">
-                            <img class="lozad" data-src="{{ asset('img/figure/figure61.png') }}" alt="figure"
-                                width="45" height="64">
-                        </div>
-                        <p>when unknown printer tookar galleytype ande scrambled imake type.</p>
-                        <div class="consulting-button">
-                            <a href="single-service2.html" class="consulting-btn"><i
-                                    class="fas fa-long-arrow-alt-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="consulting-service4">
-                        <h3 class="heading-title">Saving Money</h3>
-                        <div class="item-img">
-                            <img class="lozad" data-src="{{ asset('img/figure/figure62.png') }}" alt="figure"
-                                width="42" height="64">
-                        </div>
-                        <p>when unknown printer tookar galleytype ande scrambled imake type.</p>
-                        <div class="consulting-button">
-                            <a href="single-service2.html" class="consulting-btn"><i
-                                    class="fas fa-long-arrow-alt-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="consulting-service4 consulting-service5">
-                        <h3 class="heading-title">HR Consulting</h3>
-                        <div class="item-img">
-                            <img class="lozad" data-src="{{ asset('img/figure/figure83.png') }}" alt="figure"
-                                width="57" height="63">
-                        </div>
-                        <p>when unknown printer tookar galleytype ande scrambled imake type.</p>
-                        <div class="consulting-button">
-                            <a href="single-service2.html" class="consulting-btn"><i
-                                    class="fas fa-long-arrow-alt-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="consulting-service4 consulting-service5">
-                        <h3 class="heading-title">Saving Money</h3>
-                        <div class="item-img">
-                            <img class="lozad" data-src="{{ asset('img/figure/figure62.png') }}" alt="figure"
-                                width="42" height="64">
-                        </div>
-                        <p>when unknown printer tookar galleytype ande scrambled imake type.</p>
-                        <div class="consulting-button">
-                            <a href="single-service2.html" class="consulting-btn"><i
-                                    class="fas fa-long-arrow-alt-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="consulting-service4 consulting-service5">
-                        <h3 class="heading-title">Audit</h3>
-                        <div class="item-img">
-                            <img class="lozad" data-src="{{ asset('img/figure/figure84.png') }}" alt="figure"
-                                width="53" height="64">
-                        </div>
-                        <p>when unknown printer tookar galleytype ande scrambled imake type.</p>
-                        <div class="consulting-button">
-                            <a href="single-service2.html" class="consulting-btn"><i
-                                    class="fas fa-long-arrow-alt-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="consulting-service4 consulting-service5">
-                        <h3 class="heading-title">Saving Money</h3>
-                        <div class="item-img">
-                            <img class="lozad" data-src="{{ asset('img/figure/figure62.png') }}" alt="figure"
-                                width="42" height="64">
-                        </div>
-                        <p>when unknown printer tookar galleytype ande scrambled imake type.</p>
-                        <div class="consulting-button">
-                            <a href="single-service2.html" class="consulting-btn"><i
-                                    class="fas fa-long-arrow-alt-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> --}}
-    <!--=====================================-->
-    <!--=            Banner Start           =-->
-    <!--=====================================-->
-    {{-- <section class="banner-wrap1 banner-wrap4">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="banner-box1">
-                        <div class="item-img">
-                            <img src="img/blog/blog9.jpg" alt="blog" width="586" height="200">
-                        </div>
-                        <div class="bannar-details">
-                            <h3 class="heading-title">Need Any Help!</h3>
-                            <div class="contact-box2">
-                                <div class="item-icon-box">
-                                    <div class="item-icon"><i class="far fa-comments"></i></div>
-                                    <div class="banner-content">
-                                        <div class="item-hotline">Hotline</div>
-                                        <div class="item-number">009850 9850</div>
-                                    </div>
-                                </div>
-                                <div class="item-icon-box item-icon-box2">
-                                    <div class="item-icon"><i class="far fa-envelope"></i></div>
-                                    <div class="banner-content">
-                                        <div class="item-hotline">Send Us Email</div>
-                                        <div class="item-number">info@gmail.com</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> --}}
     <!--=====================================-->
     <!--=            Team Start             =-->
     <!--=====================================-->
@@ -450,10 +237,8 @@
         </div>
         <div class="container">
             <div class="section-heading">
-                <p class="item-subtitle">Our Team Member</p>
-                <h2 class="heading-title">Our Expertise Will Help You</h2>
-                <p>Bookan unknown printer took a galley of type and scrambled make It has survived not only five centuries.
-                </p>
+                <h2 class="heading-title jamcoPrimaryColor">Team Members</h2>
+                <p class="text-secondary text-capitalize">Our experts are ready help you</p>
                 <div class="row">
                     <div class="col-lg-4 col-md-6">
                         <div class="team-box1">
@@ -522,7 +307,7 @@
     <!--=====================================-->
     <!--=            Call-back Start        =-->
     <!--=====================================-->
-    <section class="call-back-wrap call-back-wrap2">
+    {{-- <section class="call-back-wrap call-back-wrap2">
         <div class="container">
             <div class="row no-gutters">
                 <div class="col-lg-5">
@@ -564,11 +349,11 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
     <!--=====================================-->
     <!--=            Testimonial Start      =-->
     <!--=====================================-->
-    <section class="testimonial-wrap3">
+    {{-- <section class="testimonial-wrap3">
         <div class="container">
             <div class="testimonial-box3">
                 <div class="slick-carousel slick-slider"
@@ -615,7 +400,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
     <!--=====================================-->
     <!--=            Brand Start            =-->
     <!--=====================================-->

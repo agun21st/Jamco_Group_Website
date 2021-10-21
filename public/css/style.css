@@ -1858,8 +1858,8 @@ h6 {
 /*------------------- 4.1 Footer Menu -------------------*/
 
 .footer-area1 {
-    padding: 100px 0;
-    background-color: #fff;
+    padding: 20px 0;
+    background-color: #831f82;
     background-repeat: no-repeat;
     position: relative;
 }
@@ -1933,6 +1933,7 @@ h6 {
 .footer-left p {
     margin-bottom: 5px;
     padding-right: 30px;
+    color: #fff;
 }
 
 @media only screen and (max-width: 991px) {
@@ -2037,19 +2038,19 @@ h6 {
 }
 
 .footer-middle .footer-list li a {
-    color: #444444;
+    color: #fff;
     font-size: 15px;
     transition: all 0.3s ease-in-out;
 }
 
 .footer-middle .footer-list li a:hover {
-    color: #e30713;
+    color: lightcyan;
     padding-left: 5px;
 }
 
 .footer-middle .footer-list li i {
     margin-right: 7px;
-    color: #696969;
+    color: #fff;
 }
 
 .footer-middle .footer-list2 li {
@@ -2061,19 +2062,19 @@ h6 {
 }
 
 .footer-middle .footer-list2 li a {
-    color: #444444;
+    color: #fff;
     font-size: 15px;
     transition: all 0.3s ease-in-out;
 }
 
 .footer-middle .footer-list2 li a:hover {
-    color: #e30713;
+    color: lightcyan;
     padding-left: 5px;
 }
 
 .footer-middle .footer-list2 li i {
     margin-right: 7px;
-    color: #696969;
+    color: #fff;
 }
 
 @media only screen and (max-width: 1199px) {
@@ -2243,6 +2244,7 @@ h6 {
 .footer-bottom .copyright-area p {
     text-align: center;
     margin-bottom: 0;
+    color: #fff;
 }
 
 @media only screen and (max-width: 575px) {
@@ -5307,9 +5309,9 @@ div#wrapper.open>.offcanvas-mask {
 
 @media only screen and (max-width: 991px) {
     .about-box1 p {
-        display: -webkit-box;
+        /* display: -webkit-box;
         -webkit-line-clamp: 3;
-        -webkit-box-orient: vertical;
+        -webkit-box-orient: vertical; */
         overflow: hidden;
     }
 }
@@ -7957,7 +7959,7 @@ div#wrapper.open>.offcanvas-mask {
 /*------------------- 5.7 Call-back -------------------*/
 
 .call-back-wrap {
-    transform: translateY(120px);
+    /* transform: translateY(120px); */
     position: relative;
     z-index: 3;
 }
@@ -10949,7 +10951,7 @@ div#wrapper.open>.offcanvas-mask {
 /*------------------- 5.16 Location -------------------*/
 
 .location-wrap-layout1 {
-    padding: 50px 0px 260px 0px;
+    padding: 50px 0px 50px 0px;
     position: relative;
     background-image: url("../img/figure/figure8.webp");
     background-size: cover;
@@ -10958,7 +10960,7 @@ div#wrapper.open>.offcanvas-mask {
 
 @media only screen and (max-width: 1439px) {
     .location-wrap-layout1 {
-        padding: 95px 0px 260px 0px;
+        padding: 50px 0px 50px 0px;
     }
 }
 
@@ -10970,7 +10972,7 @@ div#wrapper.open>.offcanvas-mask {
 
 @media only screen and (max-width: 479px) {
     .location-wrap-layout1 {
-        padding: 40px 0px 50px 0px;
+        padding: 20px 0px 0px 0px;
     }
 }
 
@@ -15115,6 +15117,9 @@ div#wrapper.open>.offcanvas-mask {
 
 .banner-box1.mission {
     background-color: #f8f8f8;
+    box-shadow: -3px -3px 7px #cdcdcd, 3px 3px 5px #f19a9a;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 .banner-box1 .bannar-details.mission {
