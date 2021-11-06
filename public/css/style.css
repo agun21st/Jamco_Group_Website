@@ -3027,7 +3027,7 @@ nav.template-main-menu>ul>li ul.dropdown-menu-col-1 li a {
     position: relative;
     font-size: 15px;
     font-weight: 500;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     color: #000;
     padding: 12px 20px;
     display: block;
@@ -4244,26 +4244,26 @@ div#wrapper.open>.offcanvas-mask {
     }
 }
 
-.widget-financial-service {
+.widget-jamco-service {
     margin-top: 10px;
 }
 
 @media only screen and (max-width: 991px) {
-    .widget-financial-service {
+    .widget-jamco-service {
         margin-top: 0;
     }
 }
 
-.widget-financial-service .financial-list ul li {
+.widget-jamco-service .jamco-list ul li {
     display: block;
     margin-bottom: 10px;
 }
 
-.widget-financial-service .financial-list ul li:last-child {
+.widget-jamco-service .jamco-list ul li:last-child {
     margin-bottom: 0;
 }
 
-.widget-financial-service .financial-list ul li a {
+.widget-jamco-service .jamco-list ul li a {
     color: #000;
     display: flex;
     align-items: center;
@@ -4277,22 +4277,22 @@ div#wrapper.open>.offcanvas-mask {
     transition: all 0.5s ease-in-out;
 }
 
-.widget-financial-service .financial-list ul li a:hover {
+.widget-jamco-service .jamco-list ul li a:hover {
     color: #fff;
     border-color: #e30713;
 }
 
-.widget-financial-service .financial-list ul li a:hover i {
+.widget-jamco-service .jamco-list ul li a:hover i {
     color: #fff;
 }
 
-.widget-financial-service .financial-list ul li a:hover:after {
+.widget-jamco-service .jamco-list ul li a:hover:after {
     width: 100%;
     left: 0;
     border-color: #e30713;
 }
 
-.widget-financial-service .financial-list ul li a:before {
+.widget-jamco-service .jamco-list ul li a:before {
     content: "";
     height: calc(100% + 2px);
     width: 4%;
@@ -4306,7 +4306,7 @@ div#wrapper.open>.offcanvas-mask {
     transition: all 0.5s ease-in-out;
 }
 
-.widget-financial-service .financial-list ul li a:after {
+.widget-jamco-service .jamco-list ul li a:after {
     content: "";
     height: 100%;
     width: 0;
@@ -4320,7 +4320,7 @@ div#wrapper.open>.offcanvas-mask {
     transition: all 0.5s ease-out;
 }
 
-.widget-financial-service .financial-list ul li a i {
+.widget-jamco-service .jamco-list ul li a i {
     color: #c0c0c0;
     font-size: 14px;
     transition: all 0.3s ease-in-out;
@@ -9693,7 +9693,7 @@ div#wrapper.open>.offcanvas-mask {
 
 .single-service-box2 .about-single-layout .about-box7 .heading-title {
     color: #000;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 700;
     line-height: 40px;
     margin-bottom: 12px;
@@ -9822,7 +9822,7 @@ div#wrapper.open>.offcanvas-mask {
     border-radius: 4px;
     background-color: #fff;
     padding: 14px 35px;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 700;
     color: #444444;
     text-align: center;
@@ -15126,6 +15126,17 @@ div#wrapper.open>.offcanvas-mask {
     padding: 10px;
     width: 586px;
     height: 190px;
+}
+
+.widget-jamco-service .jamco-list ul li a.active-concern-link {
+    color: #fff;
+    border-color: #e30713;
+}
+
+.widget-jamco-service .jamco-list ul li a.active-concern-link:after {
+    width: 100%;
+    left: 0;
+    border-color: #e30713;
 }
 
 @media only screen and (max-width: 991px) {

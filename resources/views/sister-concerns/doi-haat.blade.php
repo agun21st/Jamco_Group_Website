@@ -1,6 +1,6 @@
 @extends('layouts.master')
 @section('title')
-    Doi Haat | Sister Concern of Jamco Group
+    Doi Haat | Sister Concern of JAMCO Group
 @endsection
 @section('heads')
 @endsection
@@ -19,7 +19,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="breadcrumb-box">
-                        <h1 class="page-title">About Doi Haat</h1>
+                        <h1 class="page-title">Doi Haat</h1>
                         <nav>
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="{{ url('/') }}">Home</a></li>
@@ -49,19 +49,20 @@
                                 <img src="{{ asset('img/figure/figure86.png') }}" alt="figure" width="344" height="167">
                             </div>
                         </div>
-                        <h2 class="section-title">Investment Planning</h2>
-                        <h3 class="section-subtitle">Working with thousands of business companies around the world for Ideas
+                        <h2 class="section-title">Celebrate with JAMCO Doi Haat</h2>
+                        <h3 class="section-subtitle">
+                            Premium quality sweet tooth that makes you feel welcomed in any occasion
                         </h3>
-                        <p>Dorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                            laboris nisi ut aliquip ex ea commodo consequDuis aute irure.</p>
+                        <p class="text-justify">
+                            Special days are incomplete without sweets. Nowadays, people choose attractive looks besides great taste. Keeping this fact in mind, we make premium sweets and curds. For creating a lucrative outlook, we never compromise our sweet quality. So, you can enjoy our items without any hesitation.
+                        </p>
                         <div class="row">
                             <div class="col-lg-6">
                                 <ul class="service-list">
-                                    <li><i class="fas fa-check"></i>Socially Responsible Investment</li>
-                                    <li><i class="fas fa-check"></i>Comprehensive Investment Plans</li>
-                                    <li><i class="fas fa-check"></i>Financial Planning for Business</li>
-                                    <li><i class="fas fa-check"></i>Tax Mitigation Strategies</li>
+                                    <li><i class="fas fa-check"></i>Premium Quality Curds</li>
+                                    <li><i class="fas fa-check"></i>Fastival Sweet Items</li>
+                                    <li><i class="fas fa-check"></i>Amazing Laddoos</li>
+                                    <li><i class="fas fa-check"></i>Sugar-Free Items</li>
                                 </ul>
                             </div>
                             <div class="col-lg-6">
@@ -90,15 +91,15 @@
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="about-box7">
-                                        <h2 class="heading-title">We Support Our Clients Five Working Days</h2>
-                                        <p>Dorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                            incididunt ut labor etteryu doloremagna.Dorem ipsum dolor sit ametng elit, sed
-                                            do eiusmod tempor incididunt ut labor etteryu dolore magna.</p>
+                                        <h2 class="heading-title">Explore the mysterious taste of sweets</h2>
+                                        <p class="text-justify">
+                                            Embrace your special days with finger licking sweets. For small get together to marriage ceremonies and birthdays, we provide various sweet tooths. Best quality ingredients and impressive presentation makes us best from the rest.
+                                        </p>
                                         <ul class="about-list2">
-                                            <li><i class="fas fa-circle"></i>Socially Responsible Investment</li>
-                                            <li><i class="fas fa-circle"></i>Comprehensive Investment Plans</li>
-                                            <li><i class="fas fa-circle"></i>Financial Planning for Business</li>
-                                            <li><i class="fas fa-circle"></i>Tax Mitigation Strategies</li>
+                                            <li><i class="fas fa-circle"></i>Traditional Items</li>
+                                            <li><i class="fas fa-circle"></i>Flavored Toasts</li>
+                                            <li><i class="fas fa-circle"></i>Fancy Sweets</li>
+                                            <li><i class="fas fa-circle"></i>Fresh Curd</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -107,39 +108,33 @@
                         <div class="tab-area">
                             <ul class="nav nav-tabs" role="tablist">
                                 <li class="nav-item">
-                                    <a class="nav-link active" data-toggle="tab" href="#financial-flow" role="tab"
-                                        aria-selected="true">Financial Flow</a>
+                                    <a class="nav-link active" data-toggle="tab" href="#JAMCO-flow" role="tab"
+                                        aria-selected="true">Exclusive Look</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" data-toggle="tab" href="#company-growth" role="tab"
-                                        aria-selected="false">Company Growth</a>
+                                        aria-selected="false">Healthy & Organic Ingredients</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" data-toggle="tab" href="#Investment" role="tab"
-                                        aria-selected="false">Investment</a>
+                                        aria-selected="false">Custom Orders</a>
                                 </li>
                             </ul>
                             <div class="tab-content">
-                                <div class="tab-pane fade show active" id="financial-flow" role="tabpanel">
-                                    <p>Dorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                        incididunt labor etteryu dolore magna.Dorem ipsum dolor sit ametng elit, sed do
-                                        eiusmod tempor incididun tear gorem ipsum dolor sit amet, consectetur adipiscing
-                                        elit, sed do eiusmod tempor incididunt etteryu dolore magna.Dorem ipsum dolor sit
-                                        ametng.</p>
+                                <div class="tab-pane fade show active" id="JAMCO-flow" role="tabpanel">
+                                    <p class="text-justify">
+                                        For different occasions, we provide impressive looking sweets. Delicious toasts, Ilish peti, cream jam and many other expensive looking sweets are always available. Any social program like Pohela Boishakh to religious programs like puja or eid, we produce special sweets.
+                                    </p>
                                 </div>
                                 <div class="tab-pane fade" id="company-growth" role="tabpanel">
-                                    <p>Dorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                        incididunt labor etteryu dolore magna.Dorem ipsum dolor sit ametng elit, sed do
-                                        eiusmod tempor incididun tear gorem ipsum dolor sit amet, consectetur adipiscing
-                                        elit, sed do eiusmod tempor incididunt etteryu dolore magna.Dorem ipsum dolor sit
-                                        ametng.</p>
+                                    <p class="text-justify">
+                                        Thinking about the ingredients of your favourite sweets? Leave your health concerns on us. Here, we maintain fresh and organic ingredients for delicious recipes. We use our own dairy products from our own farm. So, you can be tension free about the quality of our sweets.
+                                    </p>
                                 </div>
                                 <div class="tab-pane fade" id="Investment" role="tabpanel">
-                                    <p>Dorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                        incididunt labor etteryu dolore magna.Dorem ipsum dolor sit ametng elit, sed do
-                                        eiusmod tempor incididun tear gorem ipsum dolor sit amet, consectetur adipiscing
-                                        elit, sed do eiusmod tempor incididunt etteryu dolore magna.Dorem ipsum dolor sit
-                                        ametng.</p>
+                                    <p class="text-justify">
+                                        If you want custom packages for gifts, we provide them for you. Different shapes, different tastes, sweets like traditional or exclusive items, we are ready for your order.  Even for bulk order, you can definitely choose as your special day partner. From packaging to supply the best quality items, we deliver you the perfect taste.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -149,12 +144,12 @@
                                     width="416" height="194">
                             </div>
                             <div class="bannar-details2">
-                                <h3 class="heading-title">Need Financial Help!</h3>
+                                <h3 class="heading-title">Need Help!</h3>
                                 <div class="media">
                                     <div class="item-icon"><i class="far fa-comments"></i></div>
                                     <div class="media-body">
                                         <div class="item-hotline">Hotline</div>
-                                        <div class="item-number">009850 9850</div>
+                                        <div class="item-number">+88 02-8392244</div>
                                     </div>
                                 </div>
                             </div>
@@ -162,120 +157,9 @@
                     </div>
                 </div>
                 <div class="col-lg-4 widget-break-lg sidebar-widget">
-                    <div class="widget widget-financial-service">
-                        <div class="financial-list">
-                            <ul>
-                                <li><a href="#">Investment Planning<i class="fas fa-angle-right"></i></a></li>
-                                <li><a href="#">Market Research<i class="fas fa-angle-right"></i></a></li>
-                                <li><a href="#">Financial Analysis<i class="fas fa-angle-right"></i></a></li>
-                                <li><a href="#">Taxation Planning<i class="fas fa-angle-right"></i></a></li>
-                                <li><a href="#">Savings Money<i class="fas fa-angle-right"></i></a></li>
-                                <li><a href="#">Target Audience<i class="fas fa-angle-right"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="widget widget-contact-box">
-                        <div class="widget-heading">
-                            <h3 class="item-subtitle">Contact Us</h3>
-                        </div>
-                        <div class="contact-list1">
-                            <ul>
-                                <li><i class="fas fa-map-marker-alt"></i>259 City Street, Newyork, NYPD</li>
-                                <li><i class="fas fa-envelope"></i>support@finnn.com</li>
-                                <li><i class="fas fa-phone-alt"></i>+12350-5156-000</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="widget widget-question-box">
-                        <div class="item-img">
-                            <img src="{{ asset('img/service/widget1.png') }}" alt="widget" width="350" height="372">
-                            <h4 class="item-title">Got any Questions? Call us Today!</h4>
-                            <div class="phone-number-layout">
-                                <div class="item-icon"><i class="fas fa-phone-alt"></i></div>
-                                <div class="item-number">1-200-369-8899</div>
-                            </div>
-                            <div class="phone-number-layout phone-number-layout2">
-                                <div class="item-icon"><i class="fas fa-phone-alt"></i></div>
-                                <div class="item-number">1-200-369-8899</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="widget widget-brochures-box">
-                        <div class="widget-heading">
-                            <h3 class="item-subtitle">Our Brochures</h3>
-                        </div>
-                        <div class="brochures-list">
-                            <ul>
-                                <li><a href="#"><i class="fas fa-download"></i>Download Brochure</a></li>
-                                <li><a href="#"><i class="far fa-file-pdf"></i>Price Chart</a></li>
-                            </ul>
-                        </div>
-                    </div>
+                    @include('components.concerns-links')
                 </div>
             </div>
-        </div>
-    </section>
-    <!--=====================================-->
-    <!--=            Personal Start         =-->
-    <!--=====================================-->
-    <section class="personal-info-wrap2">
-        <div class="figure-img1">
-            <img class="lozad" data-src="{{ asset('img/figure/figure5.png') }}" alt="figure" width="872"
-                height="724">
-        </div>
-        <div class="figure-img2">
-            <img class="lozad" data-src="{{ asset('img/figure/figure6.png') }}" alt="figure" width="487"
-                height="269">
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="personal-info-box2">
-                        <h2 class="section-title">New York City</h2>
-                        <ul class="information-list">
-                            <li>120 F 2th Yt, New York NY 1259</li>
-                            <li>+1 (212) 333-7888</li>
-                            <li>email@example.com</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="personal-info-box2">
-                        <h2 class="section-title">Melbourne City</h2>
-                        <ul class="information-list">
-                            <li>120 F 2th Yt, New York NY 1259</li>
-                            <li>+1 (212) 333-7888</li>
-                            <li>email@example.com</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="personal-info-box2">
-                        <h2 class="section-title">Melbourne City</h2>
-                        <ul class="information-list">
-                            <li>120 F 2th Yt, New York NY 1259</li>
-                            <li>+1 (212) 333-7888</li>
-                            <li>email@example.com</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="figure-img1">
-                <img class="lozad" data-src="{{ asset('img/figure/figure5.png') }}" alt="figure" width="872"
-                    height="724">
-            </div>
-            <div class="color-overlay1">
-                <img class="lozad" data-src="{{ asset('img/figure/figure51.png') }}" alt="figure" width="287"
-                    height="375">
-            </div>
-            <div class="color-overlay2">
-                <img class="lozad" data-src="{{ asset('img/figure/figure52.png') }}" alt="figure" width="196"
-                    height="563">
-            </div>
-        </div>
-        <div class="figure-img2">
-            <img class="lozad" data-src="{{ asset('img/figure/figure6.png') }}" alt="figure" width="487"
-                height="269">
         </div>
     </section>
 @endsection

@@ -1,6 +1,6 @@
 @extends('layouts.master')
 @section('title')
-    JAMCO Entertainment | Sister Concern of JAMCO Group
+    JAMCO Resort | Sister Concern of JAMCO Group
 @endsection
 @section('heads')
 @endsection
@@ -19,12 +19,12 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="breadcrumb-box">
-                        <h1 class="page-title">JAMCO Entertainment</h1>
+                        <h1 class="page-title">JAMCO Resort</h1>
                         <nav>
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="{{ url('/') }}">Home</a></li>
                                 <li class="breadcrumb-item"><a href="#">Sister Concerns</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">JAMCO Entertainment</li>
+                                <li class="breadcrumb-item active" aria-current="page">JAMCO Resort</li>
                             </ol>
                         </nav>
                     </div>
@@ -41,7 +41,7 @@
                 <div class="col-lg-8">
                     <div class="single-service-box2">
                         <div class="service-img5">
-                            <img src="{{ asset('img/service/service11.webp') }}" alt="service" width="779" height="440">
+                            <img src="{{ asset('img/concerns/resort.webp') }}" alt="JAMCO Resort" width="779" height="440">
                             <div class="background-image1">
                                 <img src="{{ asset('img/figure/figure85.png') }}" alt="figure" width="193" height="118">
                             </div>
@@ -49,20 +49,20 @@
                                 <img src="{{ asset('img/figure/figure86.png') }}" alt="figure" width="344" height="167">
                             </div>
                         </div>
-                        <h2 class="section-title">Welcome to JAMCO Entertainment</h2>
+                        <h2 class="section-title">Welcome to JAMCO Resort</h2>
                         <h3 class="section-subtitle">
-                            Creating social dramas that tell pioneering stories to the Bengali Audiences
+                            Striving to Provide an Incredible Resort Experience
                         </h3>
                         <p class="text-justify">
-                            Are you looking for a production house to broadcast your story into a tv screen? JAMCO Entertainment is here for you! We are an agile house, making drama contents on your script. Let your stories bring it to life with us!
+                            As a guest, you seek refreshment and comfort from the busy urban life. Keeping your desire in mind, we have equipped our resort with modern facilities to give the best 24/7 service. For better convenience, our resort is situated in a prime location of Gazipur.
                         </p>
                         <div class="row">
                             <div class="col-lg-6">
                                 <ul class="service-list">
-                                    <li><i class="fas fa-check"></i>Drama Content Creator</li>
-                                    <li><i class="fas fa-check"></i>Video Production</li>
-                                    <li><i class="fas fa-check"></i>Media Production</li>
-                                    <li><i class="fas fa-check"></i>Broadcasting</li>
+                                    <li><i class="fas fa-check"></i>Noiseless Greenery Environment</li>
+                                    <li><i class="fas fa-check"></i>Outdoor Entertainment</li>
+                                    <li><i class="fas fa-check"></i>Reasonable Packages</li>
+                                    <li><i class="fas fa-check"></i>High-End Luxury Services</li>
                                 </ul>
                             </div>
                             <div class="col-lg-6">
@@ -91,15 +91,15 @@
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="about-box7">
-                                        <h2 class="heading-title">Let Your Story Talk to the Audiences</h2>
+                                        <h2 class="heading-title">We Aim to Win Hearts Through Our Hospitality</h2>
                                         <p class="text-justify">
-                                            JAMCO entertainment is an independent production house. Here, you can enrich our Bengali culture in your story making. Our well skilled team is always there for you for help in any step. Also, for the best outcome you will get other polishing elements.
+                                            We leave no stones unturned to make our guests satisfied with our service. We believe hospitality is the key to bringing out the most satisfaction. Our cleaner to our chef everyone is working hard to make your stay extra pleasant.
                                         </p>
                                         <ul class="about-list2">
-                                            <li><i class="fas fa-circle"></i>Nurturing With Bengali Culture</li>
-                                            <li><i class="fas fa-circle"></i>Well Designed Storyboard</li>
-                                            <li><i class="fas fa-circle"></i>Tremendous Camera Work</li>
-                                            <li><i class="fas fa-circle"></i>Skilled Direction</li>
+                                            <li><i class="fas fa-circle"></i>24/7 Front Support</li>
+                                            <li><i class="fas fa-circle"></i>Exclusive Location</li>
+                                            <li><i class="fas fa-circle"></i>Kids Friendly Environment</li>
+                                            <li><i class="fas fa-circle"></i>Easy Path for Disabled People</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -109,31 +109,31 @@
                             <ul class="nav nav-tabs" role="tablist">
                                 <li class="nav-item">
                                     <a class="nav-link active" data-toggle="tab" href="#JAMCO-flow" role="tab"
-                                        aria-selected="true">Creativity</a>
+                                        aria-selected="true">High-End Luxury Services</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" data-toggle="tab" href="#company-growth" role="tab"
-                                        aria-selected="false">Strategy</a>
+                                        aria-selected="false">Outdoor Entertainment</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" data-toggle="tab" href="#Investment" role="tab"
-                                        aria-selected="false">Collaboration</a>
+                                        aria-selected="false">Reasonable Packages</a>
                                 </li>
                             </ul>
                             <div class="tab-content">
                                 <div class="tab-pane fade show active" id="JAMCO-flow" role="tabpanel">
                                     <p class="text-justify">
-                                        What engages audiences is a creative story. We always emphasise on it. In our production house, we have a strong team with expressiveness. With great coherence, we demonstrate your imaginary works onto the screen. Engaging the audience with artistry is our task.
+                                        We have carefully designed our services from the minute you step into our resort to the time you bid farewell.  The rooms are designed with stylish decor, cozy beds, and hygiene-maintained baths equipped with refreshing bathing products. Also, we have a 24/7 front desk service to attend to every need of our guests.
                                     </p>
                                 </div>
                                 <div class="tab-pane fade" id="company-growth" role="tabpanel">
                                     <p class="text-justify">
-                                        For organizing the whole work, our team provides the best strategy. According to these, we work step by step. All the equipment and the storyboard is set up based on the strategy. The outdoor and indoor adjustments are made with the workforce.
+                                        Variety of activities are available for our guests to enjoy throughout their stay. Swimming pool, water sports, spa, bar, jacuzzi, restaurant, and children's zone keep ourselves ahead of others. You can enjoy walking into a breathtaking natural environment. Even stunning views will welcome you in your rooms.
                                     </p>
                                 </div>
                                 <div class="tab-pane fade" id="Investment" role="tabpanel">
                                     <p class="text-justify">
-                                        In our production house, there is an effective team to work with collaboration. We believe in collective work. So, in any stage of our work, each of our members give constructive opinions. That makes the video production process more perfect and engaging.
+                                        A variety of reasonable packages are always available for you to fit every kind of guest. So, you are welcome to be here for a romantic getaway or to spend time with your family and friends anytime. The only differences between our packages are the rooms, days, and dinners; otherwise, you can enjoy the same amenities.
                                     </p>
                                 </div>
                             </div>

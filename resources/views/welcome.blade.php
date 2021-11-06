@@ -115,7 +115,7 @@
                 height="256">
         </div>
         <div class="background-shape8">
-            <img class="lozad" data-src="{{ asset('img/figure/figure33.png') }}" alt="figure" width="783"
+            <img class="lozad" data-src="{{ asset('img/figure/figure331.webp') }}" alt="figure" width="783"
                 height="439">
         </div>
         <div class="container">
@@ -169,102 +169,8 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="financo-activities-box2">
                         <div class="item-img">
-                            <a href="#"><img class="lozad"
-                                    data-src="{{ asset('img/concerns/jamco_agro2.webp') }}" alt="Jamco Group" width="510"
-                                    height="360"></a>
-                        </div>
-                        <div class="financo-box-layout1">
-                            <div class="financo-layout1">
-                                <div class="financo-img">
-                                    <img class="lozad" data-src="{{ asset('img/figure/figure65.png') }}"
-                                        alt="figure" width="44" height="46">
-                                </div>
-                                <h2 class="heading-title"><a href="#">JAMCO Agro Ltd.</a></h2>
-                                <p>Finance when unknown printer took a galley of type.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="financo-activities-box2">
-                        <div class="item-img">
-                            <a href="#"><img class="lozad" data-src="{{ asset('img/concerns/doi_haat.webp') }}"
-                                    alt="Jamco Group" width="510" height="360"></a>
-                        </div>
-                        <div class="financo-box-layout1">
-                            <div class="financo-layout1">
-                                <div class="financo-img">
-                                    <img class="lozad" data-src="{{ asset('img/figure/figure66.png') }}"
-                                        alt="figure" width="44" height="46">
-                                </div>
-                                <h2 class="heading-title"><a href="#">Doi Haat</a></h2>
-                                <p>Finance when unknown printer took a galley of type.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="financo-activities-box2">
-                        <div class="item-img">
-                            <a href="#"><img class="lozad"
-                                    data-src="{{ asset('img/concerns/jamco_cafe.webp') }}" alt="Jamco Group" width="510"
-                                    height="360"></a>
-                        </div>
-                        <div class="financo-box-layout1">
-                            <div class="financo-layout1">
-                                <div class="financo-img">
-                                    <img class="lozad" data-src="{{ asset('img/figure/figure67.png') }}"
-                                        alt="figure" width="32" height="49">
-                                </div>
-                                <h2 class="heading-title"><a href="#">JAMCO Cafe</a></h2>
-                                <p>Finance when unknown printer took a galley of type.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row my-3 my-md-5">
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="financo-activities-box2">
-                        <div class="item-img">
-                            <a href="#"><img class="lozad" data-src="{{ asset('img/concerns/resort.webp') }}"
-                                    alt="Jamco Group" width="510" height="360"></a>
-                        </div>
-                        <div class="financo-box-layout1">
-                            <div class="financo-layout1">
-                                <div class="financo-img">
-                                    <img class="lozad" data-src="{{ asset('img/figure/figure65.png') }}"
-                                        alt="figure" width="44" height="46">
-                                </div>
-                                <h2 class="heading-title"><a href="#">JAMCO Resort</a></h2>
-                                <p>Finance when unknown printer took a galley of type.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="financo-activities-box2">
-                        <div class="item-img">
-                            <a href="#"><img class="lozad" data-src="{{ asset('img/concerns/fashion.webp') }}"
-                                    alt="Jamco Group" width="510" height="360"></a>
-                        </div>
-                        <div class="financo-box-layout1">
-                            <div class="financo-layout1">
-                                <div class="financo-img">
-                                    <img class="lozad" data-src="{{ asset('img/figure/figure66.png') }}"
-                                        alt="figure" width="44" height="46">
-                                </div>
-                                <h2 class="heading-title"><a href="#">JAMCO Fashion</a></h2>
-                                <p>Finance when unknown printer took a galley of type.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="financo-activities-box2">
-                        <div class="item-img">
-                            <a href="#"><img class="lozad"
-                                    data-src="{{ asset('img/concerns/entertainment.webp') }}" alt="Jamco Group"
+                            <a href="{{ url('/sister-concerns/jamco-entertainment') }}"><img class="lozad"
+                                    data-src="{{ asset('img/concerns/entertainment.webp') }}" alt="JAMCO Group"
                                     width="510" height="360"></a>
                         </div>
                         <div class="financo-box-layout1">
@@ -273,7 +179,101 @@
                                     <img class="lozad" data-src="{{ asset('img/figure/figure67.png') }}"
                                         alt="figure" width="32" height="49">
                                 </div>
-                                <h2 class="heading-title"><a href="#">JAMCO Entertainment</a></h2>
+                                <h2 class="heading-title"><a href="{{ url('/sister-concerns/jamco-entertainment') }}">JAMCO Entertainment</a></h2>
+                                <p>Creating social dramas that tell pioneering stories to the Bengali Audiences</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="financo-activities-box2">
+                        <div class="item-img">
+                            <a href="{{ url('/sister-concerns/doi-haat') }}"><img class="lozad" data-src="{{ asset('img/concerns/doi_haat.webp') }}"
+                                    alt="JAMCO Group" width="510" height="360"></a>
+                        </div>
+                        <div class="financo-box-layout1">
+                            <div class="financo-layout1">
+                                <div class="financo-img">
+                                    <img class="lozad" data-src="{{ asset('img/figure/figure66.png') }}"
+                                        alt="figure" width="44" height="46">
+                                </div>
+                                <h2 class="heading-title"><a href="{{ url('/sister-concerns/doi-haat') }}">Doi Haat</a></h2>
+                                <p>Premium quality sweet tooth that makes you feel welcomed in any occasion</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="financo-activities-box2">
+                        <div class="item-img">
+                            <a href="{{ url('/sister-concerns/jamco-agro-limited') }}"><img class="lozad"
+                                    data-src="{{ asset('img/concerns/jamco_agro2.webp') }}" alt="JAMCO Group" width="510"
+                                    height="360"></a>
+                        </div>
+                        <div class="financo-box-layout1">
+                            <div class="financo-layout1">
+                                <div class="financo-img">
+                                    <img class="lozad" data-src="{{ asset('img/figure/figure65.png') }}"
+                                        alt="figure" width="44" height="46">
+                                </div>
+                                <h2 class="heading-title"><a href="{{ url('/sister-concerns/jamco-agro-limited') }}">JAMCO Agro Ltd.</a></h2>
+                                <p>Premium quality sweet tooth that makes you feel welcomed in any occasion</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row my-3 my-md-5">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="financo-activities-box2">
+                        <div class="item-img">
+                            <a href="{{ url('/sister-concerns/jamco-resort') }}"><img class="lozad" data-src="{{ asset('img/concerns/resort.webp') }}"
+                                    alt="JAMCO Resort" width="510" height="360"></a>
+                        </div>
+                        <div class="financo-box-layout1">
+                            <div class="financo-layout1">
+                                <div class="financo-img">
+                                    <img class="lozad" data-src="{{ asset('img/figure/figure65.png') }}"
+                                        alt="figure" width="44" height="46">
+                                </div>
+                                <h2 class="heading-title"><a href="{{ url('/sister-concerns/jamco-resort') }}">JAMCO Resort</a></h2>
+                                <p>Finance when unknown printer took a galley of type.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="financo-activities-box2">
+                        <div class="item-img">
+                            <a href="{{ url('/sister-concerns/jamco-fashion') }}"><img class="lozad" data-src="{{ asset('img/concerns/fashion.webp') }}"
+                                    alt="JAMCO Group" width="510" height="360"></a>
+                        </div>
+                        <div class="financo-box-layout1">
+                            <div class="financo-layout1">
+                                <div class="financo-img">
+                                    <img class="lozad" data-src="{{ asset('img/figure/figure66.png') }}"
+                                        alt="figure" width="44" height="46">
+                                </div>
+                                <h2 class="heading-title"><a href="{{ url('/sister-concerns/jamco-fashion') }}">JAMCO Fashion</a></h2>
+                                <p>Finance when unknown printer took a galley of type.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="financo-activities-box2">
+                        <div class="item-img">
+                            <a href="{{ url('/sister-concerns/jamco-cafe-and-restaurant') }}"><img class="lozad"
+                                    data-src="{{ asset('img/concerns/jamco_cafe.webp') }}" alt="JAMCO Group" width="510"
+                                    height="360"></a>
+                        </div>
+                        <div class="financo-box-layout1">
+                            <div class="financo-layout1">
+                                <div class="financo-img">
+                                    <img class="lozad" data-src="{{ asset('img/figure/figure67.png') }}"
+                                        alt="figure" width="32" height="49">
+                                </div>
+                                <h2 class="heading-title"><a href="{{ url('/sister-concerns/jamco-cafe-and-restaurant') }}">JAMCO Cafe</a></h2>
                                 <p>Finance when unknown printer took a galley of type.</p>
                             </div>
                         </div>
@@ -285,7 +285,7 @@
                     <div class="financo-activities-box2">
                         <div class="item-img">
                             <a href="#"><img class="lozad"
-                                    data-src="{{ asset('img/concerns/construction.webp') }}" alt="Jamco Group"
+                                    data-src="{{ asset('img/concerns/construction.webp') }}" alt="JAMCO Group"
                                     width="510" height="360"></a>
                         </div>
                         <div class="financo-box-layout1">
@@ -304,7 +304,7 @@
                     <div class="financo-activities-box2">
                         <div class="item-img">
                             <a href="#"><img class="lozad"
-                                    data-src="{{ asset('img/concerns/jamco_poultry.webp') }}" alt="Jamco Group"
+                                    data-src="{{ asset('img/concerns/jamco_poultry.webp') }}" alt="JAMCO Group"
                                     width="510" height="360"></a>
                         </div>
                         <div class="financo-box-layout1">
@@ -323,7 +323,7 @@
                     <div class="financo-activities-box2">
                         <div class="item-img">
                             <a href="#"><img class="lozad" data-src="{{ asset('img/concerns/dairy.webp') }}"
-                                    alt="Jamco Group" width="510" height="360"></a>
+                                    alt="JAMCO Group" width="510" height="360"></a>
                         </div>
                         <div class="financo-box-layout1">
                             <div class="financo-layout1">

@@ -1,6 +1,6 @@
 @extends('layouts.master')
 @section('title')
-    About Us | Jamco Group
+    About Us | JAMCO Group
 @endsection
 @section('heads')
 @endsection
@@ -39,7 +39,7 @@
             <div class="row">
                 <div class="col-lg-6 col-md-6">
                     <div class="about-box4">
-                        <p class="heading-subtitle jamcoPrimaryColor">About Jamco Group</p>
+                        <p class="heading-subtitle jamcoPrimaryColor">About JAMCO Group</p>
                         <h2 class="heading-title">Aiming at Making the Best in all Sectors</h2>
                         <p class="text-justify mb-2">
                             <strong>JAMCO Group</strong>, is one of the largest private sectors of Bangladesh, came into being in 2020 with a mission to provide a wide array of necessary products and services in cost effective ways. Kamrul Hasan, one of the most dynamic entrepreneurs of Bangladesh, founded these conglomerates. We have been recognized as a group of companies in the country within a very short period of time for our excellence. Since its inception, these conglomerates have been playing a vital role in the economic growth of Bangladesh.
@@ -103,7 +103,7 @@
                 <div class="col-lg-12">
                     <div class="banner-box1 mission">
                         <div class="item-img">
-                            <img src="{{asset('img/blog/jamco_mission.webp')}}" alt="blog" width="586" height="200">
+                            <img src="{{asset('img/blog/JAMCO_mission.webp')}}" alt="blog" width="586" height="200">
                         </div>
                         <div class="bannar-details mission">
                             <h3 class="heading-title jamcoPrimaryColor">Mission</h3>
@@ -120,7 +120,7 @@
                 <div class="col-lg-12">
                     <div class="banner-box1 mission">
                         <div class="item-img">
-                            <img src="{{asset('img/blog/jamco_vision.webp')}}" alt="blog" width="586" height="200">
+                            <img src="{{asset('img/blog/JAMCO_vision.webp')}}" alt="blog" width="586" height="200">
                         </div>
                         <div class="bannar-details mission">
                             <h3 class="heading-title jamcoPrimaryColor">Vision</h3>

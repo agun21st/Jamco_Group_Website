@@ -52,6 +52,7 @@
 </head>
 
 <body class="sticky-header">
+    <div id="fb-root"></div><script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v12.0" nonce="fAfsx9Wk"></script>
     <!--=====================================-->
     <!--=   Scroll-up     Start             =-->
     <!--=====================================-->
@@ -97,7 +98,7 @@
                                 <h4 class="font-weight-bold text-white">Let's get social</h4>
                                 <ul>
                                     <li>
-                                        <a href="#" class="fb"><i class="fab fa-facebook-square"></i></a>
+                                        <a href="https://www.facebook.com/jamcogroupbd" class="fb" target="_blank"><i class="fab fa-facebook-square"></i></a>
                                         <a href="#" class="twit"><i class="fab fa-twitter"></i></a>
                                         <a href="#" class="linkin"><i class="fab fa-linkedin-in"></i></a>
                                         <a href="#" class="pint"><i class="fab fa-pinterest"></i></a>
@@ -259,9 +260,9 @@
                     </li>
                 </ul>
                 <div class="offcanvas-footer">
-                    <div class="item-title">Follow Me</div>
+                    <div class="item-title">Follow Us</div>
                     <ul class="offcanvas-social">
-                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="https://www.facebook.com/jamcogroupbd" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
                         <li><a href="#"><i class="fab fa-twitter"></i></a></li>
                         <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
                         <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>

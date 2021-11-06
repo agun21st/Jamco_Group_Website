@@ -19,7 +19,7 @@
                         <ul>
                             <li class="topbar-social">
                                 <div class="social-icon">
-                                    <a href="#"><i class="fab fa-facebook-square"></i></a>
+                                    <a href="https://www.facebook.com/jamcogroupbd" target="_blank"><i class="fab fa-facebook-square"></i></a>
                                     <a href="#"><i class="fab fa-twitter"></i></a>
                                     <a href="#"><i class="fab fa-linkedin-in"></i></a>
                                     <a href="#"><i class="fab fa-pinterest"></i></a>
@@ -28,7 +28,7 @@
                             </li>
                         </ul>
                         <div class="header-right-button">
-                            <a href="{{ url('/about-us') }}" class="header-btn">Find An Expart</a>
+                            <a href="{{ url('/contact-us') }}" class="header-btn">Contact us</a>
                         </div>
                     </div>
                 </div>
@@ -60,8 +60,24 @@
                                 <a href="#">Sister Concerns</a>
                                 <ul class="dropdown-menu-col-1">
                                     <li>
-                                        <a href="{{ url('/sister-concerns/jamco-entertainment') }}">Jamco
+                                        <a href="{{ url('/sister-concerns/jamco-cafe-and-restaurant') }}">JAMCO Cafe and Restaurant</a>
+                                    </li>
+                                    <li>
+                                        <a href="{{ url('/sister-concerns/jamco-entertainment') }}">JAMCO
                                             Entertainment</a>
+                                    </li>
+                                    <li>
+                                        <a href="{{ url('/sister-concerns/jamco-agro-limited') }}">JAMCO
+                                            Agro Limited</a>
+                                    </li>
+                                    <li>
+                                        <a href="{{ url('/sister-concerns/jamco-construction') }}">JAMCO Construction</a>
+                                    </li>
+                                    <li>
+                                        <a href="{{ url('/sister-concerns/jamco-fashion') }}">JAMCO Fashion</a>
+                                    </li>
+                                    <li>
+                                        <a href="{{ url('/sister-concerns/jamco-resort') }}">JAMCO Resort</a>
                                     </li>
                                     <li>
                                         <a href="{{ url('/sister-concerns/doi-haat') }}">Doi Haat</a>
@@ -92,7 +108,7 @@
                                     </div>
                                     <div class="media-body">
                                         <div class="item-label">Hotline Number</div>
-                                        <div class="item-number">01711 111 111</div>
+                                        <div class="item-number"><a data-global="phone" id="" href="tel:+88028392244" title="Call us now" role="button" data-track-event="click" data-track-action="phone_link" style="text-decoration: none; color: #000000">02-8392244</a></div>
                                     </div>
                                 </div>
                             </li>
