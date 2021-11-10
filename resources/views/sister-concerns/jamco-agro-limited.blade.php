@@ -60,7 +60,7 @@
                         <div class="row">
                             <div class="col-lg-6">
                                 <ul class="service-list">
-                                    <li><i class="fas fa-check"></i>Nobodip Poultry</li>
+                                    <li id="nobodip-poultry"><i class="fas fa-check"></i>Nobodip Poultry</li>
                                     <li><i class="fas fa-check"></i>JAMCO Dairy</li>
                                     <li><i class="fas fa-check"></i>Nobodip Fisheries</li>
                                 </ul>
@@ -163,7 +163,7 @@
                                 </div>
                             </div>
                         </div>
-                        <h2 class="section-title">Jamco Dairy Products</h2>
+                        <h2 class="section-title" id="jamco-dairy-products">Jamco Dairy Products</h2>
                         <h3 class="section-subtitle">
                             Exclusive and Pure Dairy Items that You Need for Daily Source of Nutrition
                         </h3>

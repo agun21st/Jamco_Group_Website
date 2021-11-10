@@ -237,7 +237,7 @@
                                         alt="figure" width="44" height="46">
                                 </div>
                                 <h2 class="heading-title"><a href="{{ url('/sister-concerns/jamco-resort') }}">JAMCO Resort</a></h2>
-                                <p>Finance when unknown printer took a galley of type.</p>
+                                <p>Striving to Provide an Incredible Resort Experience.</p>
                             </div>
                         </div>
                     </div>
@@ -255,7 +255,7 @@
                                         alt="figure" width="44" height="46">
                                 </div>
                                 <h2 class="heading-title"><a href="{{ url('/sister-concerns/jamco-fashion') }}">JAMCO Fashion</a></h2>
-                                <p>Finance when unknown printer took a galley of type.</p>
+                                <p>Tailoring High-End Garment Products for Your Fashion House.</p>
                             </div>
                         </div>
                     </div>
@@ -274,7 +274,7 @@
                                         alt="figure" width="32" height="49">
                                 </div>
                                 <h2 class="heading-title"><a href="{{ url('/sister-concerns/jamco-cafe-and-restaurant') }}">JAMCO Cafe</a></h2>
-                                <p>Finance when unknown printer took a galley of type.</p>
+                                <p>Have a Premium Dining Experience.</p>
                             </div>
                         </div>
                     </div>
@@ -284,7 +284,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="financo-activities-box2">
                         <div class="item-img">
-                            <a href="#"><img class="lozad"
+                            <a href="{{ url('/sister-concerns/jamco-construction') }}"><img class="lozad"
                                     data-src="{{ asset('img/concerns/construction.webp') }}" alt="JAMCO Group"
                                     width="510" height="360"></a>
                         </div>
@@ -294,8 +294,8 @@
                                     <img class="lozad" data-src="{{ asset('img/figure/figure65.png') }}"
                                         alt="figure" width="44" height="46">
                                 </div>
-                                <h2 class="heading-title"><a href="#">JAMCO Construction</a></h2>
-                                <p>Finance when unknown printer took a galley of type.</p>
+                                <h2 class="heading-title"><a href="{{ url('/sister-concerns/jamco-construction') }}">JAMCO Construction</a></h2>
+                                <p>We Bring Life to Your Dream Projects.</p>
                             </div>
                         </div>
                     </div>
@@ -303,7 +303,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="financo-activities-box2">
                         <div class="item-img">
-                            <a href="#"><img class="lozad"
+                            <a href="{{ url('/sister-concerns/jamco-agro-limited#nobodip-poultry') }}"><img class="lozad"
                                     data-src="{{ asset('img/concerns/jamco_poultry.webp') }}" alt="JAMCO Group"
                                     width="510" height="360"></a>
                         </div>
@@ -313,8 +313,8 @@
                                     <img class="lozad" data-src="{{ asset('img/figure/figure66.png') }}"
                                         alt="figure" width="44" height="46">
                                 </div>
-                                <h2 class="heading-title"><a href="#">JAMCO Poultry</a></h2>
-                                <p>Finance when unknown printer took a galley of type.</p>
+                                <h2 class="heading-title"><a href="{{ url('/sister-concerns/jamco-agro-limited#nobodip-poultry') }}">JAMCO Poultry</a></h2>
+                                <p>Your Everyday Protein Supplier for the Best Diet.</p>
                             </div>
                         </div>
                     </div>
@@ -322,7 +322,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="financo-activities-box2">
                         <div class="item-img">
-                            <a href="#"><img class="lozad" data-src="{{ asset('img/concerns/dairy.webp') }}"
+                            <a href="{{ url('/sister-concerns/jamco-agro-limited#jamco-dairy-products') }}"><img class="lozad" data-src="{{ asset('img/concerns/dairy.webp') }}"
                                     alt="JAMCO Group" width="510" height="360"></a>
                         </div>
                         <div class="financo-box-layout1">
@@ -331,8 +331,8 @@
                                     <img class="lozad" data-src="{{ asset('img/figure/figure67.png') }}"
                                         alt="figure" width="32" height="49">
                                 </div>
-                                <h2 class="heading-title"><a href="#">JAMCO Dairy</a></h2>
-                                <p>Finance when unknown printer took a galley of type.</p>
+                                <h2 class="heading-title"><a href="{{ url('/sister-concerns/jamco-agro-limited#jamco-dairy-products') }}">JAMCO Dairy</a></h2>
+                                <p>Exclusive and Pure Dairy Items that You Need for Daily Source of Nutrition.</p>
                             </div>
                         </div>
                     </div>

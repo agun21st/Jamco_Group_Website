@@ -41,8 +41,8 @@
                     <div class="contact-box1">
                         <h2 class="heading-title">Mail for information</h2>
                         <ul class="contact-list">
-                            <li>info@gmail.com</li>
-                            <li>info@gmail.com</li>
+                            <li>info@jamcogroupbd.com</li>
+                            <li>info@jamcogroupbd.com</li>
                         </ul>
                         <div class="contact-icon">
                             <div class="item-icon"><i class="fas fa-envelope"></i></div>
@@ -53,8 +53,8 @@
                     <div class="contact-box1">
                         <h2 class="heading-title">Office Phone Number</h2>
                         <ul class="contact-list">
-                            <li>+ (123) 365-2907</li>
-                            <li>+ (123) 129-1906</li>
+                            <li>+ (88) 02-8392244</li>
+                            <li>+ (88) 02-8392244</li>
                         </ul>
                         <div class="contact-icon">
                             <div class="item-icon"><i class="fas fa-phone"></i></div>
@@ -65,8 +65,8 @@
                     <div class="contact-box1 contact-box4">
                         <h2 class="heading-title">Mail for information</h2>
                         <ul class="contact-list2">
-                            <li>PO Box Collins Street 5980,Australia</li>
-                            <li>PO Box Collins Street 5980,Australia</li>
+                            <li>PO Box Collins Street 5980</li>
+                            <li>PO Box Collins Street 5980</li>
                         </ul>
                         <div class="contact-icon">
                             <div class="item-icon"><i class="fas fa-map"></i></div>
