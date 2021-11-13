@@ -6,7 +6,6 @@
     <title>
         @yield('title')
     </title>
-    <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Favicon Start Here -->
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -214,7 +213,7 @@
                     <div class="row justify-content-center">
                         <div class="col-lg-12">
                             <div class="copyright-area">
-                                <p>&copy; 2021, JAMCO Group, All Rights Reserved </p>
+                                <p>&copy; 2021, JAMCO Group, All Rights Reserved | Site by <a href="https://creativeitinstitute.com/" target="_blank" title="Creative IT Institute">CITI</a></p>
                                 <div class="copyright-img1">
                                     <img class="lozad" src="{{ asset('img/figure/figure4.png') }}"
                                         alt="figure" width="20" height="20">

@@ -1,8 +1,9 @@
 @extends('layouts.master')
 @section('title')
-    Jamco Entertainment | Sister Concern of Jamco Group
+Contact Us - JAMCO Group Bangladesh
 @endsection
 @section('heads')
+<meta name="description" content="Need to contact with us. Here you find our contact information. JAMCO Group Bangladesh. To know more call: +88028392244">
 @endsection
 @section('content')
     <!--=====================================-->
@@ -19,7 +20,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="breadcrumb-box">
-                        <h1 class="page-title">Contact With Us</h1>
+                        <h1 class="page-title">Contact with Us</h1>
                         <nav>
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="{{ url('/') }}">Home</a></li>
@@ -93,8 +94,8 @@
                             <img src="img/figure/figure94.png" alt="figure" width="266" height="214">
                         </div>
                         <div class="item-heading">
-                            <h2 class="item-title">We Love To Hear From You</h2>
-                            <p>Please call or email contact form and we will be happy to assist you.</p>
+                            <h2 class="item-title pb-4">Feel Free to Contact Us</h2>
+                            {{-- <p>Please fill up the form with a valid address to learn more about us.</p> --}}
                         </div>
                         <form class="message-box" id="">
                             <div class="row gutters-10">

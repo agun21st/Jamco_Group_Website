@@ -3,6 +3,7 @@
     JAMCO Agro Limited | Sister Concern of JAMCO Group
 @endsection
 @section('heads')
+<meta name="description" content="JAMCO Agro Ltd is a leading agricultural company, produces crops by farming scientifically. And distributed them nationwide and exported them to neighboring countries.">
 @endsection
 @section('content')
     <!--=====================================-->

@@ -3,6 +3,7 @@
     JAMCO Resort | Sister Concern of JAMCO Group
 @endsection
 @section('heads')
+<meta name="description" content="JAMCO Resort is here to provide you with an Incredible resort experience for maximum refreshment. All modern facilities and the best 24/7 service available.">
 @endsection
 @section('content')
     <!--=====================================-->

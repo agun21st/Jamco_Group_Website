@@ -1949,12 +1949,12 @@ h6 {
 }
 
 .footer-left .footer-social ul li a {
-    color: #646464;
+    color: #831f82;
     font-size: 20px;
     background-color: #efefef;
     border: none;
     border-radius: 4px;
-    padding: 9px 14px;
+    padding: 5px 10px;
     transition: all 0.3s ease-in-out;
 }
 
@@ -10045,7 +10045,7 @@ div#wrapper.open>.offcanvas-mask {
 .contact-box3 p {
     color: #646464;
     margin-bottom: 25px;
-    width: 76%;
+    /* width: 76%; */
 }
 
 @media only screen and (max-width: 479px) {

@@ -3,6 +3,7 @@
     JAMCO Group - A Vanguard of Prosperity
 @endsection
 @section('heads')
+<meta name="description" content="JAMCO Group is one of the leading groups of companies in Bangladesh. Came out with a mission to provide a wide array of necessary products and services in cost-effective ways.">
 @endsection
 @section('content')
     <div class="slider-area2 slider-layout2">
@@ -26,8 +27,8 @@
                 <div class="slider-content s-tb slide-1">
                     <div class="text-left title-container s-tb-c">
                         <div class="container">
-                            <p class="item-subtitle">Welcome to</p>
-                            <h2 class="item-title">JAMCO Group</h2>
+                            {{-- <p class="item-subtitle">Welcome to</p> --}}
+                            <h1 class="item-title">Welcome to JAMCO Group</h1>
                             <div class="item-paragraph">We are dedicated to providing you with what you need and building a
                                 better opportunity for all.</div>
                             <div class="slider-button">

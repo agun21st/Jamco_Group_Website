@@ -3,6 +3,7 @@
     JAMCO Fashion | Sister Concern of JAMCO Group
 @endsection
 @section('heads')
+<meta name="description" content="JAMCO fashion is one of the leading companies that manufactures and supplies apparel items.  JAMCO's garment factories ensure that top-notch quality products are produced.">
 @endsection
 @section('content')
     <!--=====================================-->

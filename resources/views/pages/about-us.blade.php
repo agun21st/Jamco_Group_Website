@@ -3,6 +3,7 @@
     About Us | JAMCO Group
 @endsection
 @section('heads')
+<meta name="description" content="To know more about our company, check out this. JAMCO Group - A Vanguard of Prosperity. To know more call: +88028392244">
 @endsection
 @section('content')
     <!--=====================================-->
@@ -103,7 +104,7 @@
                 <div class="col-lg-12">
                     <div class="banner-box1 mission">
                         <div class="item-img">
-                            <img src="{{asset('img/blog/JAMCO_mission.webp')}}" alt="blog" width="586" height="200">
+                            <img src="{{asset('img/blog/jamco_mission.webp')}}" alt="blog" width="586" height="200">
                         </div>
                         <div class="bannar-details mission">
                             <h3 class="heading-title jamcoPrimaryColor">Mission</h3>
@@ -120,7 +121,7 @@
                 <div class="col-lg-12">
                     <div class="banner-box1 mission">
                         <div class="item-img">
-                            <img src="{{asset('img/blog/JAMCO_vision.webp')}}" alt="blog" width="586" height="200">
+                            <img src="{{asset('img/blog/jamco_vision.webp')}}" alt="blog" width="586" height="200">
                         </div>
                         <div class="bannar-details mission">
                             <h3 class="heading-title jamcoPrimaryColor">Vision</h3>
@@ -238,7 +239,7 @@
         <div class="container">
             <div class="section-heading">
                 <h2 class="heading-title jamcoPrimaryColor">Team Members</h2>
-                <p class="text-secondary text-capitalize">Our experts are ready help you</p>
+                <p class="text-secondary">Our Experts are Ready to Help You</p>
                 <div class="row">
                     <div class="col-lg-4 col-md-6">
                         <div class="team-box1">

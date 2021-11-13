@@ -3,6 +3,7 @@
     Doi Haat | Sister Concern of JAMCO Group
 @endsection
 @section('heads')
+<meta name="description" content="Looking for the best fresh and tastiest sweet? Doi Haat is here to deliver the best fresh and tastiest sweet at an affordable price. call: +88028392244">
 @endsection
 @section('content')
     <!--=====================================-->

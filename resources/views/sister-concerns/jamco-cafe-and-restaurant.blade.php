@@ -3,6 +3,7 @@
     JAMCO Cafe and Restaurant | Sister Concern of JAMCO Group
 @endsection
 @section('heads')
+<meta name="description" content="JAMCO Cafe and Restaurant is an exceptional coffee shop with outstanding interior design. So, what are you waiting for? Visit now.">
 @endsection
 @section('content')
     <!--=====================================-->

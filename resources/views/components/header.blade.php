@@ -28,7 +28,7 @@
                             </li>
                         </ul>
                         <div class="header-right-button">
-                            <a href="{{ url('/contact-us') }}" class="header-btn">Contact us</a>
+                            <a href="{{ url('/contact-us') }}" class="header-btn">Contact Us</a>
                         </div>
                     </div>
                 </div>

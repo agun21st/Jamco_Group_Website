@@ -3,6 +3,7 @@
     JAMCO Construction | Sister Concern of JAMCO Group
 @endsection
 @section('heads')
+<meta name="description" content="JAMCO Construction is a company that offers a wide range of construction services. Develop your construction plans with JAMCO, to find promising construction projects and service call: +88028392244">
 @endsection
 @section('content')
     <!--=====================================-->

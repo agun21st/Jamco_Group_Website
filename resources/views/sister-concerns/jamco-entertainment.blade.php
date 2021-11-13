@@ -3,6 +3,7 @@
     JAMCO Entertainment | Sister Concern of JAMCO Group
 @endsection
 @section('heads')
+<meta name="description" content="JAMCO Entertainment is always here for you, to broadcast your story into a tv screen. Let your stories bring it to life with us! To know more call: +88028392244">
 @endsection
 @section('content')
     <!--=====================================-->

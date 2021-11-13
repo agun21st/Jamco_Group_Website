@@ -1,8 +1,9 @@
 @extends('layouts.master')
 @section('title')
-    Jamco Entertainment | Sister Concern of Jamco Group
+Blog Details - JAMCO Group Bangladesh
 @endsection
 @section('heads')
+<meta name="description" content="Read our blog and get updated about our company and trending topics also. JAMCO Group Bangladesh.">
 @endsection
 @section('content')
     <!--=====================================-->
