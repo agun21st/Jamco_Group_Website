@@ -19,8 +19,8 @@ Route::get('/', function () {
 Route::get('/about-us', function () {
     return view('pages.about-us');
 });
-Route::get('/contact', function () {
-    return view('pages.contact');
+Route::get('/contact-us', function () {
+    return view('pages.contact-us');
 });
 // all converns
 Route::get('/sister-concerns/jamco-entertainment', function () {

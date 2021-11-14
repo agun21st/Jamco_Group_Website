@@ -20,7 +20,7 @@ Contact Us - JAMCO Group Bangladesh
             <div class="row">
                 <div class="col-lg-12">
                     <div class="breadcrumb-box">
-                        <h1 class="page-title">Contact with Us</h1>
+                        <h1 class="page-title">Contact Us</h1>
                         <nav>
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="{{ url('/') }}">Home</a></li>
@@ -43,7 +43,8 @@ Contact Us - JAMCO Group Bangladesh
                         <h2 class="heading-title">Mail for information</h2>
                         <ul class="contact-list">
                             <li>info@jamcogroupbd.com</li>
-                            <li>info@jamcogroupbd.com</li>
+                            <li>&nbsp;</li>
+                            <li>&nbsp;</li>
                         </ul>
                         <div class="contact-icon">
                             <div class="item-icon"><i class="fas fa-envelope"></i></div>
@@ -55,7 +56,8 @@ Contact Us - JAMCO Group Bangladesh
                         <h2 class="heading-title">Office Phone Number</h2>
                         <ul class="contact-list">
                             <li>+ (88) 02-8392244</li>
-                            <li>+ (88) 02-8392244</li>
+                            <li>&nbsp;</li>
+                            <li>&nbsp;</li>
                         </ul>
                         <div class="contact-icon">
                             <div class="item-icon"><i class="fas fa-phone"></i></div>
@@ -66,8 +68,7 @@ Contact Us - JAMCO Group Bangladesh
                     <div class="contact-box1 contact-box4">
                         <h2 class="heading-title">Mail for information</h2>
                         <ul class="contact-list2">
-                            <li>PO Box Collins Street 5980</li>
-                            <li>PO Box Collins Street 5980</li>
+                            <li>Eastern Arzoo, Level - 15, Suite - 5, 197, Shahid Syed Nazrul Islam Sarani, Bijoynagar, Dhaka-1000, Bangladesh</li>
                         </ul>
                         <div class="contact-icon">
                             <div class="item-icon"><i class="fas fa-map"></i></div>

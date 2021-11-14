@@ -255,7 +255,7 @@
                         <a href="team1.html">Team 1</a>
                     </li>
                     <li class="nav-item">
-                        <a href="contact.html">Contact</a>
+                        <a href="{{url("/contact-us")}}">Contact Us</a>
                     </li>
                 </ul>
                 <div class="offcanvas-footer">

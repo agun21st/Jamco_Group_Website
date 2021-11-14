@@ -23,7 +23,7 @@
                         <nav>
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="{{ url('/') }}">Home</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">Contact</li>
+                                <li class="breadcrumb-item active" aria-current="page">Contact Us</li>
                             </ol>
                         </nav>
                     </div>
